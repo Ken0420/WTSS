@@ -1,0 +1,1373 @@
+<!-- Static template export; replace [Template data: ...] values with live data. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <!-- Dynamic SEO metadata omitted from static export. -->
+    <!-- Dynamic favicon links omitted from static export. -->
+
+    <!-- web fonts CDN -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Tracking pixel omitted from static export. -->
+
+    <!-- flag cdn -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom styles -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../assets/css/base.css"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Google tag (gtag.js) -->
+
+    <script>
+      var cookieFunctions = {
+        setCookie: function (e, t, n) {
+          var a = "";
+          if (n) {
+            var o = new Date();
+            o.setTime(o.getTime() + 24 * n * 60 * 60 * 1e3),
+              (a = "; expires=" + o.toUTCString());
+          }
+          document.cookie = e + "=" + (t || "") + a + "; path=/";
+        },
+        getCookie: function (e) {
+          for (
+            var t = e + "=", n = document.cookie.split(";"), a = 0;
+            a < n.length;
+            a++
+          ) {
+            for (var o = n[a]; " " == o.charAt(0); )
+              o = o.substring(1, o.length);
+            if (0 == o.indexOf(t)) return o.substring(t.length, o.length);
+          }
+          return null;
+        },
+        eraseCookie: function (e) {
+          document.cookie = e + "=; Max-Age=-99999999;";
+        },
+      };
+      function getUrlVars() {
+        var e = {};
+        return (
+          window.location.href.replace(
+            /[?&]+([^=&]+)=([^&]*)/gi,
+            function (t, n, a) {
+              e[n] = a;
+            }
+          ),
+          e
+        );
+      }
+      function getUrlParam(e, t) {
+        var n = t;
+        return window.location.href.indexOf(e) > -1 && (n = getUrlVars()[e]), n;
+      }
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+      var campaign_variables = [
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "utm_term",
+        "utm_content",
+      ];
+      campaign_variables.forEach(function (e, t, n) {
+        var a = getUrlParam(e, null);
+        null !== a && cookieFunctions.setCookie(e, escape(a), 7);
+      });
+    </script>
+
+    <script>
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+    </script>
+
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+      .carousel-control-next.second-carousel-ctrl {
+        right: 70px;
+      }
+      .carousel-control-prev.second-carousel-ctrl {
+        left: 70px;
+      }
+
+      .carousel-hero-container {
+        height: 30vw;
+        max-height: 455px;
+        min-height: 195px;
+      }
+
+      .first-section-container {
+        height: 350px;
+        max-height: 470px;
+      }
+
+      .carousel-control-next-icon-grey {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23696969' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+      }
+
+      .carousel-control-prev-icon-grey {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23696969' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+      }
+
+      .carousel-indicators.tshub-carousel {
+        bottom: -60px !important;
+      }
+
+      .carousel-indicators.tshub-carousel li {
+        width: 15px;
+        height: 15px;
+        background-color: dimgray;
+        border-radius: 50%;
+      }
+
+      .thinksmart-hub-label {
+        font-size: max(calc(100% + 2vw), 33px);
+      }
+
+      .img-gallery-view:hover {
+        cursor: pointer;
+        border-color: #007bff;
+      }
+      .ts-device-2-tablets-tshub {
+        position: absolute;
+        bottom: -100px;
+        width: 50%;
+      }
+
+      .ts-device-2nd-section {
+        width: 100%;
+        bottom: -70px;
+      }
+
+      @media screen and (max-width: 1199px) {
+        .ts-device-2-tablets-tshub {
+          bottom: -60px;
+        }
+
+        .ts-device-2nd-section {
+          width: 100%;
+          bottom: -30px;
+        }
+      }
+
+      @media (min-width: 1440px) {
+        .p-xxl-custom {
+          padding: 1rem !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a id="top"></a>
+    <header>
+      <!-- nav start -->
+      <nav
+        class="navbar fixed-top navbar-default navbar-dark navbar-expand-lg nav-gradient p-lg-0"
+      >
+        <div class="container">
+          <div class="nav-top-bg bg-tss-dark"></div>
+          <a class="navbar-brand p-lg-0" href="home.html">
+            <div class="d-flex align-items-center">
+              <div class="">
+                <img
+                  src="../../../assets/img/logo-thinksmart-light-v2.svg"
+                  class="icon-logo-style-tss generic-svg-shadow"
+                  alt=""
+                />
+              </div>
+            </div>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-lg-2">
+              <li class="nav-item pt-lg-4 pb-lg-4 border-bottom-sm-md">
+                <a class="nav-link text-white" href="home.html"
+                  >Overview <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="products.html">Products</a>
+              </li>
+
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="../shared_pages/blog.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../shared_pages/about_us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item pt-lg-4 pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../shared_pages/contact_us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- nav end -->
+    </header>
+
+    <!-- this is the hero image on a carousel -->
+    <section class="hero-container carousel-hero-container">
+      <section class="tss-gradient"></section>
+
+      <!-- hero-gradient-dark start -->
+      <div class="d-none d-md-block hero-gradient-background"></div>
+      <!-- hero-gradient-dark end -->
+
+      <!-- hero angled shape containers start -->
+      <div class="shape-backgrounds-container">
+        <div class="shape-graphic-container-left">
+          <div class="shape-graphic-left-side-a"></div>
+          <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+          <div
+            class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+          ></div>
+          <div class="shape-graphic-left-side-a-last d-none d-xl-block"></div>
+        </div>
+        <div class="shape-right">
+          <div class="shape-graphic-left-side-a"></div>
+          <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+          <div
+            class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+          ></div>
+          <div class="shape-graphic-left-side-a-last d-none d-xl-block"></div>
+        </div>
+      </div>
+      <!-- hero angled-shaped-containers end -->
+
+      <!-- hero image carousel start -->
+      <div class="container">
+        <div class="pt-5 mt-5"></div>
+        <div class="pt-3 mt-3"></div>
+        <div class="row align-items-lg-center">
+          <div class="col-12">
+            <div class="">
+              <div
+                id="carouselClientIndicators-1"
+                class="carousel carousel-fade"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner testimonials-slide-container">
+                  <div class="carousel-item active">
+                    <div class="container">
+                      <div
+                        class="row justify-content-center align-items-lg-center"
+                      >
+                        <div
+                          class="col-12 text-center align-self-lg-center pl-xl-0 pr-xl-0"
+                        >
+                          <div class="col-12 ml-auto mr-auto p-0">
+                            <img
+                              src="../../../assets/img/tshub/main-carousel-image-1.png"
+                              class="img-fluid ml-auto mr-auto"
+                              style="width: 80%"
+                              alt="hero_slider_image_1"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div
+                        class="row justify-content-center align-items-lg-center"
+                      >
+                        <div
+                          class="col-12 text-center align-self-lg-center pl-xl-0 pr-xl-0"
+                        >
+                          <div class="col-12 ml-auto mr-auto p-0">
+                            <img
+                              src="../../../assets/img/tshub/main-carousel-image-2.png"
+                              class="img-fluid ml-auto mr-auto"
+                              style="width: 80%"
+                              alt="hero_slider_image_2"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="container">
+                      <div
+                        class="row justify-content-center align-items-lg-center"
+                      >
+                        <div
+                          class="col-12 text-center align-self-lg-center pl-xl-0 pr-xl-0"
+                        >
+                          <div class="col-12 ml-auto mr-auto p-0">
+                            <img
+                              src="../../../assets/img/tshub/main-carousel-image-3.png"
+                              class="img-fluid ml-auto mr-auto"
+                              style="width: 80%"
+                              alt="hero_slider_image_3"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <ol
+                  class="tss-carousel-indicators carousel-indicators tshub-carousel"
+                >
+                  <li
+                    data-target="#carouselClientIndicators-1"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li
+                    data-target="#carouselClientIndicators-1"
+                    data-slide-to="1"
+                  ></li>
+                  <li
+                    data-target="#carouselClientIndicators-1"
+                    data-slide-to="2"
+                  ></li>
+                </ol>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselClientIndicators-1"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon mt-xl-n3"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselClientIndicators-1"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon mt-xl-n3"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mb-3 pb-lg-2"></div>
+      </div>
+      <!-- hero image carousel end -->
+
+      <!-- headers start -->
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 my-auto">
+                <h3
+                  class="mb-sm-2 mb-lg-3 d-none d-md-flex align-items-center justify-content-center"
+                >
+                  Introducing
+                  <span
+                    class="text-tss-secondary font-weight-bold ml-3 thinksmart-hub-label"
+                    >THINKSMART HUB</span
+                  >
+                </h3>
+                <div class="mb-sm-2 mb-lg-3 d-md-none">
+                  <h3 class="mb-sm-2 mb-lg-3 text-center">Introducing</h3>
+                  <p
+                    class="text-tss-secondary font-weight-bold thinksmart-hub-label text-center"
+                  >
+                    THINKSMART HUB
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 my-auto">
+                <p
+                  class="mb-sm-2 mb-lg-3 text-center col-12 mx-auto"
+                  style="font-size: larger; font-weight: 600"
+                >
+                  A customer portal and online class registration system
+                </p>
+              </div>
+              <div class="col-12 my-auto">
+                <p class="mb-sm-2 mb-lg-3 text-center col-12 col-md-6 mx-auto">
+                  Help your customers effortlessly sign up for classes, make
+                  bookings, update details, make online payments, catch up on
+                  your announcements, and so much more!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- headers end -->
+    </section>
+
+    <!-- divider -->
+    <div class="bg-tss-secondary pt-2 pb-2"></div>
+    <!-- divider -->
+
+    <!-- spacing -->
+    <div class="p-2 p-md-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- spacing -->
+
+    <!-- spacing -->
+
+    <!-- spacing -->
+
+    <!-- spacing -->
+
+    <!-- spacing -->
+
+    <!-- spacing -->
+
+    <!-- spacing -->
+
+    <!-- spacing -->
+
+    <!-- first-ish -->
+    <section class="first-section-container my-5"></section>
+
+    <!-- spacing -->
+
+    <!-- spacing -->
+
+    <!-- spacing -->
+    <div class="p-2 p-lg-5"></div>
+    <!-- spacing -->
+
+    <!-- second-ish section -->
+    <section class="hero-container">
+      <div class="hero-gradient-background-flipped"></div>
+
+      <!-- hero gradient tss -->
+      <section class="tss-gradient"></section>
+
+      <!-- hero-gradient-dark start -->
+      <div class="d-none d-md-block hero-gradient-background"></div>
+      <!-- hero-gradient-dark end -->
+
+      <!-- small angled shape containers start -->
+      <div class="position-absolute h-100 w-100 overflow-hidden">
+        <div class="d-none d-lg-block shape-graphic-small-1"></div>
+        <div class="d-none d-lg-block shape-graphic-small-2"></div>
+        <div class="d-none d-lg-block shape-graphic-small-3"></div>
+        <div class="d-none d-lg-block shape-graphic-small-4"></div>
+        <div class="d-none d-lg-block shape-graphic-small-5"></div>
+        <div class="d-none d-lg-block shape-graphic-small-6"></div>
+      </div>
+      <!-- angled-shaped-containers end -->
+
+      <!--start container -->
+      <div class="container pt-3 pb-0 pb-md-0 pb-lg-0">
+        <div class="row">
+          <div class="col-12 col-lg-6 d-inline-flex d-lg-none mb-3">
+            <img
+              src="../../../assets/img/tshub/second-section-hero.png"
+              class="img-fluid"
+              alt="tablets"
+            />
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="row pb-3">
+              <div class="col-12">
+                <h4 class="text-tss-secondary text-center mt-2 mb-4">
+                  Manage your personal details
+                </h4>
+              </div>
+
+              <div class="col-12 mb-xl-2">
+                <div class="row text-white">
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        Update your contact information
+                      </div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        View/update student photos
+                      </div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        Add/edit your students
+                      </div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        Update payment information
+                      </div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        Check and sign agreements
+                      </div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        View student skill sets
+                      </div>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-none d-lg-inline-flex">
+            <!-- devices images start-->
+            <div class="">
+              <img
+                src="../../../assets/img/tshub/second-section-hero.png"
+                class="img-fluid d-none d-md-block pt-xl-4 pr-xl-3 pl-xl-3 ts-device-2-tablets ts-device-2nd-section"
+                alt="tablets"
+              />
+            </div>
+            <!-- devices images end -->
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+
+    <!-- spacing -->
+    <div class="p-2 p-md-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- spacing -->
+    <div class="p-2 p-md-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- spacing -->
+    <div class="p-2 p-md-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- spacing -->
+    <div class="p-2 p-md-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- third-ish section -->
+    <section class="hero-container">
+      <div class="hero-gradient-background-flipped"></div>
+
+      <!-- hero gradient tss -->
+      <section class="tss-gradient"></section>
+
+      <!-- hero-gradient-dark start -->
+      <div class="d-none d-md-block hero-gradient-background"></div>
+      <!-- hero-gradient-dark end -->
+
+      <!-- small angled shape containers start -->
+      <div class="position-absolute h-100 w-100 overflow-hidden">
+        <div class="d-none d-lg-block shape-graphic-small-1"></div>
+        <div class="d-none d-lg-block shape-graphic-small-2"></div>
+        <div class="d-none d-lg-block shape-graphic-small-3"></div>
+        <div class="d-none d-lg-block shape-graphic-small-4"></div>
+        <div class="d-none d-lg-block shape-graphic-small-5"></div>
+        <div class="d-none d-lg-block shape-graphic-small-6"></div>
+      </div>
+      <!-- angled-shaped-containers end -->
+
+      <!--start container -->
+      <div class="container pt-3 pb-0 pb-md-0 pb-lg-0">
+        <div class="row">
+          <div class="col-12 col-lg-6 d-none d-lg-inline-flex">
+            <!-- devices images start-->
+            <div class="">
+              <img
+                src="../../../assets/img/tshub/third-section-hero.png"
+                class="img-fluid d-none d-md-block pt-xl-4 pr-xl-3 pl-xl-3 ts-device-2-tablets"
+                alt="desktop"
+                style="width: 85%"
+                alt="tablet, smartphone"
+              />
+            </div>
+            <!-- devices images end -->
+          </div>
+
+          <div class="col-12 col-lg-6 d-none mb-3">
+            <img
+              src="../../../assets/img/tshub/third-section-hero.png"
+              class="img-fluid"
+              alt="tablet, smartphone"
+            />
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="row pb-3">
+              <div class="col-12">
+                <h4 class="text-tss-secondary text-center mt-2 mb-4">
+                  Manage your classes & financials
+                </h4>
+              </div>
+
+              <div class="col-12 mb-xl-2">
+                <div class="row text-white">
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        Add student enrollments
+                      </div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">Notify absences</div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        View class information
+                      </div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">View and pay invoices</div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        Book into make-up classes
+                      </div>
+                    </li>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <li class="d-flex">
+                      <div class="">
+                        <i
+                          class="fas fa-circle opacity-2"
+                          style="font-size: 8px; line-height: 15px"
+                        ></i>
+                      </div>
+                      <div class="pl-2 mb-1 mb-lg-3">
+                        View customer statements
+                      </div>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+
+    <!-- spacing -->
+    <div class="p-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- spacing -->
+    <div class="p-2 p-md-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- spacing -->
+    <div class="p-2 p-md-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- fourth-ish section -->
+    <section>
+      <div class="container mb-3">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div
+                class="col-12 col-md-12 col-lg-6 d-inline-flex d-lg-none mb-3"
+              >
+                <img
+                  src="../../../assets/img/tshub/bottom-supporting-image.png"
+                  class="img-fluid ml-auto mr-auto"
+                  style="width: 30%"
+                  alt="hero_slider_image_1"
+                />
+              </div>
+
+              <div class="col-12 col-md-12 col-lg-6 mt-3 mx-auto">
+                <h2 class="text-tss-secondary mb-3">And much, much more...</h2>
+
+                <p class="mb-0 mb-sm-2">
+                  Let our new ThinkSmart Hub reduce the time you spend on
+                  administration. By automating your class and customer
+                  management, you will save administration costs on manual data
+                  entry.
+                </p>
+
+                <div class="mb-0 mb-sm-2">
+                  <div class="col-12">
+                    <ul
+                      class="list-unstyled mb-0 pb-0 d-sm-flex mt-3 mb-3"
+                      style="white-space: normal"
+                    >
+                      <div class="">
+                        <li class="d-flex align-items-top">
+                          <i
+                            class="fas fa-circle pt-1 pr-2 opacity-2"
+                            style="font-size: 8px; line-height: 15px"
+                          ></i
+                          >View classes by lists, cards or timetable.
+                        </li>
+                        <li class="d-flex align-items-top">
+                          <i
+                            class="fas fa-circle pt-1 pr-2 opacity-2"
+                            style="font-size: 8px; line-height: 15px"
+                          ></i
+                          >Customise classes information with images.
+                        </li>
+                        <li class="d-flex align-items-top">
+                          <i
+                            class="fas fa-circle pt-1 pr-2 opacity-2"
+                            style="font-size: 8px; line-height: 15px"
+                          ></i
+                          >Send push notifications to your customers.
+                        </li>
+                        <li class="d-flex align-items-top">
+                          <i
+                            class="fas fa-circle pt-1 pr-2 opacity-2"
+                            style="font-size: 8px; line-height: 15px"
+                          ></i
+                          >Modern and stylish interface.
+                        </li>
+                        <li class="d-flex align-items-top">
+                          <i
+                            class="fas fa-circle pt-1 pr-2 opacity-2"
+                            style="font-size: 8px; line-height: 15px"
+                          ></i
+                          >Send messages to your customers.
+                        </li>
+                        <li class="d-flex align-items-top">
+                          <i
+                            class="fas fa-circle pt-1 pr-2 opacity-2"
+                            style="font-size: 8px; line-height: 15px"
+                          ></i
+                          >Coming soon: Brand your own app.
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+
+                <p class="mb-0 mb-sm-2">
+                  This system is both accessible via a website and an
+                  installable app on your phone or tablet (iOS & Android).
+                </p>
+              </div>
+
+              <div
+                class="col-12 col-md-12 col-lg-6 d-none d-lg-flex align-items-center justify-content-center"
+              >
+                <img
+                  src="../../../assets/img/tshub/bottom-carousel-img.svg"
+                  class="img-fluid ml-auto mr-auto ts-device-2-tablets-tshub"
+                  alt="And much, much more..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- spacing -->
+    <div class="p-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- spacing -->
+    <div class="p-3 p-lg-4"></div>
+    <!-- spacing -->
+
+    <!-- fifth-ish section -->
+    <section>
+      <div class="container mb-3">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 mt-3 mx-auto">
+                <h2 class="text-tss-secondary mb-3">Image Gallery</h2>
+              </div>
+              <div class="col-12 mt-3 mx-auto">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-6 col-lg-4 mb-3">
+                        <img
+                          src="../../../assets/img/tshub/gallery-images/thumb-1.png"
+                          class="rounded img-fluid img-thumbnail img-gallery-view shadow"
+                          data-img="1"
+                          alt="image_gallery_1"
+                        />
+                      </div>
+                      <div class="col-6 col-lg-4 mb-3">
+                        <img
+                          src="../../../assets/img/tshub/gallery-images/thumb-2.png"
+                          class="rounded img-fluid img-thumbnail img-gallery-view shadow"
+                          data-img="2"
+                          alt="image_gallery_2"
+                        />
+                      </div>
+                      <div class="col-6 col-lg-4 my-3 mt-lg-0">
+                        <img
+                          src="../../../assets/img/tshub/gallery-images/thumb-3.png"
+                          class="rounded img-fluid img-thumbnail img-gallery-view shadow"
+                          data-img="3"
+                          alt="image_gallery_3"
+                        />
+                      </div>
+                      <div class="col-6 col-lg-4 my-3">
+                        <img
+                          src="../../../assets/img/tshub/gallery-images/thumb-4.png"
+                          class="rounded img-fluid img-thumbnail img-gallery-view shadow"
+                          data-img="4"
+                          alt="image_gallery_4"
+                        />
+                      </div>
+                      <div class="col-6 col-lg-4 my-3">
+                        <img
+                          src="../../../assets/img/tshub/gallery-images/thumb-5.png"
+                          class="rounded img-fluid img-thumbnail img-gallery-view shadow"
+                          data-img="5"
+                          alt="image_gallery_5"
+                        />
+                      </div>
+                      <div class="col-6 col-lg-4 my-3">
+                        <img
+                          src="../../../assets/img/tshub/gallery-images/thumb-6.png"
+                          class="rounded img-fluid img-thumbnail img-gallery-view shadow"
+                          data-img="6"
+                          alt="image_gallery_6"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sample row -->
+    <section class="d-none">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <div class="mh-100" style="height: 1200px"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="imageView"
+      tabindex="-1"
+      aria-labelledby="imageViewLabel"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0">
+          <div class="modal-header d-none">
+            <h5 class="modal-title" id="imageViewLabel">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-flex justify-content-center p-0">
+            <img
+              src=""
+              class="img-fluid img-responsive view-image-full-view"
+              alt="image_gallery_1"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-tss-primary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4 mt-lg-5 pt-lg-2"></div>
+    <div class="bg-tss-secondary pt-1 pb-2"></div>
+    <!-- footer start -->
+    <section class="d-block position-relative pb-5 pb-md-0 mb-md-0">
+      <div class="tss-gradient gradient-inset-shadow-deep-footer"></div>
+      <footer class="text-white pt-1 pb-3">
+        <!-- container for company logo, contact details and social media links start -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <!-- company info / logo -->
+            <div class="col-12 col-md-4 col-lg-3 col-xl-4">
+              <div
+                class="d-flex align-items-center justify-content-center justify-content-md-start mt-3"
+              >
+                <div class="">
+                  <img
+                    src="../../../assets/img/logo-thinksmart-light-v2.svg"
+                    class="icon-logo-style-tss-footer generic-svg-shadow-footer"
+                    alt="ThinkSmart Software"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- company contact / get in touch with us start -->
+            <div
+              class="mt-4 mt-md-3 mt-lg-3 col-8 col-sm-8 col-md-8 col-lg-6 col-xl-6 pl-lg-3 pl-xl-4"
+            >
+              <span class="text-center text-md-left text-shadow">
+                <h5 class="text-tss-secondary">Get in touch with us</h5>
+              </span>
+
+              <div class="row">
+                <!-- sales -->
+                <div class="pl-sm-4 pl-md-3 col-12 mt-2 mb-lg-2">
+                  <div class="row align-items-center">
+                    <!-- call -->
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-au h5 m-0"></div>
+                        <div class="pl-2">AUS</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- australia number -->
+                      <span class="text-white ml-xl-n2">61 3 9018 9594 </span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-gb h5 m-0 p-0"></div>
+                        <div class="pl-2 pr-2">UK</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- uk number -->
+                      <span class="text-white ml-xl-n2">01483 422 080</span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-ae h5 m-0 p-0"></div>
+                        <div class="pl-2 pr-2">UAE</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- uae number -->
+                      <span class="text-white ml-xl-n2">971 585 19 0406</span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <!-- contact us via our online form -->
+                    <div class="pl-sm-5 pl-md-3 col-auto pr-0">
+                      <div class="text-center">
+                        <i class="fas fa-edit fa-lg pl-1"></i>
+                      </div>
+                    </div>
+                    <div class="col-9 text-left pl-2">
+                      Or contact us via our
+                      <a
+                        href="../shared_pages/contact_us.html"
+                        class="text-white font-weight-bold"
+                        >online form</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- company contact / get in touch with us end -->
+
+            <!-- stay updated, social media start -->
+            <div
+              class="mt-4 mt-md-3 mt-lg-3 col-12 col-md-4 col-lg-2 col-xl-2 pl-lg-0 pl-xl-3"
+            >
+              <div class="pl-xl-4">
+                <span class="text-center text-md-left text-shadow">
+                  <h5 class="text-tss-secondary">Stay updated</h5>
+                </span>
+
+                <div
+                  class="text-center text-md-left pt-lg-1 pt-xl-2 text-xl-left"
+                >
+                  <a
+                    href="http://www.facebook.com/ThinkSmartSoftware"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="Facebook"
+                    class="h4"
+                    ><i class="fa-brands fa-facebook-square text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/thinksmart_software/"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="Instagram"
+                    class="h4"
+                    ><i class="fa-brands fa-instagram text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://au.linkedin.com/company/thinksmart-software"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="LinkedIn"
+                    class="h4"
+                    ><i class="fa-brands fa-linkedin text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://www.twitter.com/tweetthinksmart"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="X"
+                    class="h4"
+                    ><i
+                      class="fa-brands fa-square-x-twitter text-white pr-2"
+                    ></i
+                  ></a>
+
+                  <!-- back to top start -->
+                  <!-- <div class="text-center text-md-left text-xl-left pt-xl-2">
+                                <small><a href="#top" class="text-white"><i class="fas fa-caret-up pr-1"></i>Back to top</a></small>
+                            </div> -->
+                  <!-- back to top end -->
+
+                  <!-- <div id="footer-country-selector" class="d-none pt-4 pt-md-0 pt-lg-4 mt-1">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="text-white dropdown-toggle text-reset" href="" id="dropdown-country" data-toggle="dropdown"
+                                           aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-au"></span> AU</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown-country">
+                                            <a class="dropdown-item" href="#gb"><span class="flag-icon flag-icon-gb"></span> UK</a>
+                                            <a class="dropdown-item" href="#au"><span class="flag-icon flag-icon-us"></span> USA</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- stay updated, social media end -->
+          </div>
+        </div>
+      </footer>
+
+      <!-- bottom footer menu -->
+      <footer class="position-relative">
+        <div
+          class="bg-tss-dark dark-strip-footer d-none d-md-block nav-gradient-footer-bottom-strip"
+        ></div>
+        <div class="position-relative">
+          <ul class="nav justify-content-center pt-2 position-relative">
+            <li>
+              <a class="text-white" href="home.html">Overview</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li>
+              <a class="text-white" href="products.html">Products</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li>
+              <a class="text-white" href="../shared_pages/blog.html">Blog</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="../shared_pages/about_us.html"
+                >About Us</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="../shared_pages/contact_us.html"
+                >Contact Us</a
+              >
+            </li>
+
+            <!-- additional menu item no content yet start -->
+            <li class="d-none">
+              <span class="text-white d-inline pl-2 pr-0">|</span>
+              <div class="footer-dropdown-item dropup d-inline-flex">
+                <a
+                  class="dropdown-toggle border-0 pt-0 pb-0 pl-1 text-white"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="../shared_pages/partners.html"
+                    >Partners</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="../shared_pages/franchising.html"
+                    >Franchising</a
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- additional menu item no content yet end -->
+          </ul>
+          <div class="text-center text-white pt-2 pt-sm-1 pt-md-1 pb-4 pb-md-2">
+            <small>
+              <span class="d-block d-sm-inline"
+                >© <span class="current_year"></span>
+                <a href="home.html" class="text-white"
+                  >ThinkSmart Software Pty Ltd</a
+                >
+                -
+              </span>
+              <!-- au privacy policy -->
+              <a class="text-white" target="_blank" href="agreements.html"
+                >Privacy Policy</a
+              >
+              <!-- uk privacy policy -->
+              <!-- <a class="text-white" target="_blank" href="https://www.thinksmartsoftware.com/en-gb/privacy-policy.html">Privacy Policy</a> -->
+              <!-- usa privacy policy -->
+              <!-- <a class="text-white" target="_blank" href="https://www.thinksmartsoftware.com/en-us/privacy-policy.html">Privacy Policy</a> -->
+            </small>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end of bottom navigation -->
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        var d = new Date();
+        var y = d.getFullYear();
+        $(".current_year").empty().append(y);
+
+        var get_user_country_code = "";
+        if (!cookieFunctions.getCookie("country")) {
+          get_user_country_code = "AU";
+          get_user_country_code = get_user_country_code.toLowerCase();
+
+          cookieFunctions.setCookie("country", get_user_country_code);
+        } else {
+          get_user_country_code = cookieFunctions.getCookie("country");
+        }
+
+        $("#contact-" + get_user_country_code + "-button").click();
+
+        var get_user_country_name = "";
+        if (!cookieFunctions.getCookie("country_name")) {
+          get_user_country_name = "Australia";
+
+          cookieFunctions.setCookie("country_name", get_user_country_name);
+        } else {
+          get_user_country_name = cookieFunctions.getCookie("country_name");
+        }
+
+        $("[name=country], [name=Country]").val(get_user_country_name);
+
+        $(".learn-more-button").click(function (e) {
+          e.preventDefault();
+          const cc_url = "https://clearcourse.liberis.com/";
+          window.open(cc_url);
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".img-gallery-view").click(function () {
+          $(".view-image-full-view").attr("src", "");
+
+          let thumb = $(this).attr("data-img");
+
+          const img =
+            "../../../assets/img/tshub/gallery-images/thumb-" +
+            thumb +
+            "-expanded.png";
+
+          $("#imageView").modal("show");
+          $(".view-image-full-view").attr("src", img);
+        });
+      });
+    </script>
+  </body>
+</html>

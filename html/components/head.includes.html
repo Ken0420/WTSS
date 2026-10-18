@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Static template preview</title>
+  </head>
+  <body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <!-- Dynamic SEO metadata omitted from static export. -->
+    <!-- Dynamic favicon links omitted from static export. -->
+
+    <!-- web fonts CDN -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Tracking pixel omitted from static export. -->
+
+    <!-- flag cdn -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom styles -->
+    <link rel="stylesheet" type="text/css" href="../../assets/css/base.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Google tag (gtag.js) -->
+
+    <script>
+      var cookieFunctions = {
+        setCookie: function (e, t, n) {
+          var a = "";
+          if (n) {
+            var o = new Date();
+            o.setTime(o.getTime() + 24 * n * 60 * 60 * 1e3),
+              (a = "; expires=" + o.toUTCString());
+          }
+          document.cookie = e + "=" + (t || "") + a + "; path=/";
+        },
+        getCookie: function (e) {
+          for (
+            var t = e + "=", n = document.cookie.split(";"), a = 0;
+            a < n.length;
+            a++
+          ) {
+            for (var o = n[a]; " " == o.charAt(0); )
+              o = o.substring(1, o.length);
+            if (0 == o.indexOf(t)) return o.substring(t.length, o.length);
+          }
+          return null;
+        },
+        eraseCookie: function (e) {
+          document.cookie = e + "=; Max-Age=-99999999;";
+        },
+      };
+      function getUrlVars() {
+        var e = {};
+        return (
+          window.location.href.replace(
+            /[?&]+([^=&]+)=([^&]*)/gi,
+            function (t, n, a) {
+              e[n] = a;
+            }
+          ),
+          e
+        );
+      }
+      function getUrlParam(e, t) {
+        var n = t;
+        return window.location.href.indexOf(e) > -1 && (n = getUrlVars()[e]), n;
+      }
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+      var campaign_variables = [
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "utm_term",
+        "utm_content",
+      ];
+      campaign_variables.forEach(function (e, t, n) {
+        var a = getUrlParam(e, null);
+        null !== a && cookieFunctions.setCookie(e, escape(a), 7);
+      });
+    </script>
+
+    <script>
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+    </script>
+  </body>
+</html>

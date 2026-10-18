@@ -1,0 +1,1308 @@
+<!-- Static template export; replace [Template data: ...] values with live data. -->
+<!DOCTYPE html>
+<html lang="en" data-product="MusicBiz">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MusicBiz | Overview</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <!-- Dynamic SEO metadata omitted from static export. -->
+    <!-- Dynamic favicon links omitted from static export. -->
+
+    <!-- web fonts CDN -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Tracking pixel omitted from static export. -->
+
+    <!-- flag cdn -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom styles -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../../assets/css/base.css"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Google tag (gtag.js) -->
+
+    <script>
+      var cookieFunctions = {
+        setCookie: function (e, t, n) {
+          var a = "";
+          if (n) {
+            var o = new Date();
+            o.setTime(o.getTime() + 24 * n * 60 * 60 * 1e3),
+              (a = "; expires=" + o.toUTCString());
+          }
+          document.cookie = e + "=" + (t || "") + a + "; path=/";
+        },
+        getCookie: function (e) {
+          for (
+            var t = e + "=", n = document.cookie.split(";"), a = 0;
+            a < n.length;
+            a++
+          ) {
+            for (var o = n[a]; " " == o.charAt(0); )
+              o = o.substring(1, o.length);
+            if (0 == o.indexOf(t)) return o.substring(t.length, o.length);
+          }
+          return null;
+        },
+        eraseCookie: function (e) {
+          document.cookie = e + "=; Max-Age=-99999999;";
+        },
+      };
+      function getUrlVars() {
+        var e = {};
+        return (
+          window.location.href.replace(
+            /[?&]+([^=&]+)=([^&]*)/gi,
+            function (t, n, a) {
+              e[n] = a;
+            }
+          ),
+          e
+        );
+      }
+      function getUrlParam(e, t) {
+        var n = t;
+        return window.location.href.indexOf(e) > -1 && (n = getUrlVars()[e]), n;
+      }
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+      var campaign_variables = [
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "utm_term",
+        "utm_content",
+      ];
+      campaign_variables.forEach(function (e, t, n) {
+        var a = getUrlParam(e, null);
+        null !== a && cookieFunctions.setCookie(e, escape(a), 7);
+      });
+    </script>
+
+    <script>
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+    </script>
+  </head>
+  <body class="product-musicbiz" data-product="MusicBiz">
+    <a id="top"></a>
+    <header>
+      <!-- nav start -->
+      <nav
+        class="navbar fixed-top navbar-default navbar-dark navbar-expand-lg nav-gradient p-lg-0"
+      >
+        <div class="container">
+          <div class="nav-top-bg bg-mb-dark"></div>
+          <a class="navbar-brand p-lg-0" href="home.html">
+            <div class="d-flex align-items-center">
+              <div class="icon-logo-style">
+                <img
+                  src="../../../../assets/img/musicbiz/logo-icon-musicbiz.svg"
+                  class="img-fluid logo-icon-svg-shadow"
+                  alt="MusicBiz"
+                />
+              </div>
+              <div
+                class="h4 font-weight-normal text-shadow ml-1 pl-1 pl-1 pt-2"
+              >
+                Music<strong>Biz</strong>
+              </div>
+            </div>
+          </a>
+
+          <!-- trial button in tablet mode only start -->
+          <div class="d-none d-md-block d-lg-none ml-md-auto pr-md-3">
+            <a
+              class="btn-success btn text-center text-white"
+              href="sign_up.html"
+              >Free Trial</a
+            >
+          </div>
+          <!-- trial button in tablet mode end -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-lg-2">
+              <li class="nav-item pt-lg-4 pb-lg-4 border-bottom-sm-md">
+                <a class="nav-link text-white" href="home.html"
+                  >Overview <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="features.html">Features</a>
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="download.html">Download</a>
+              </li>
+
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../../shared_pages/blog.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../../shared_pages/about_us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item pt-lg-4 pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../../shared_pages/contact_us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+
+            <a
+              class="btn-success btn d-none d-lg-inline-block mb-1 mb-md-0 ml-md-1 text-white"
+              href="sign_up.html"
+              >Free Trial</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- nav end -->
+    </header>
+
+    <!-- this is the hero image section -->
+    <section class="">
+      <!-- main hero image start -->
+      <section class="">
+        <section class="hero-container overflow-hidden">
+          <section class="mb-gradient"></section>
+          <div class="hero-gradient-background-light d-none d-md-block"></div>
+          <div class="hero-gradient-background d-none d-lg-block"></div>
+          <!-- angled shape containers start -->
+          <div class="shape-backgrounds-container">
+            <div class="shape-graphic-container-left">
+              <div class="shape-graphic-left-side-a"></div>
+              <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+              <div
+                class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+              ></div>
+              <div
+                class="shape-graphic-left-side-a-last d-none d-xl-block"
+              ></div>
+            </div>
+            <div class="shape-right">
+              <div class="shape-graphic-left-side-a"></div>
+              <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+              <div
+                class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+              ></div>
+              <div
+                class="shape-graphic-left-side-a-last d-none d-xl-block"
+              ></div>
+            </div>
+          </div>
+
+          <!-- angled-shaped-containers end -->
+          <!-- custom spacing -->
+
+          <div class="pt-4 mt-5"></div>
+          <div class="pt-3 pt-sm-2"></div>
+          <div class="pt-0 pt-sm-2 pt-lg-4"></div>
+
+          <!-- hero image start -->
+          <div class="container pt-lg-4 pb-lg-4">
+            <div class="row">
+              <div class="d-none"></div>
+
+              <!-- headline left side -->
+              <div class="col-6 col-sm-6 col-lg-6">
+                <div class="row align-items-center">
+                  <div class="col-12 mb-0 mt-0 mt-md-2 mb-md-2 pt-lg-2 pb-lg-0">
+                    <!-- hero text start -->
+                    <div class="">
+                      <img
+                        src="../../../../assets/img/musicbiz/musicbiz-main-headline.svg"
+                        class="headline-large d-lg-none headline-svg-shadow w-100 pt-3 pl-md-3 pb-3"
+                      />
+                      <div
+                        class="ml-auto mr-auto w-75 pl-xl-3 pb-xl-2 pb-lg-3 pb-xl-0"
+                      >
+                        <img
+                          src="../../../../assets/img/musicbiz/musicbiz-main-headline.svg"
+                          class="slide-in-left headline-large d-none d-lg-block headline-svg-shadow img-fluid p-lg-0 pb-xl-3 pl-xl-4 pr-xl-4 mb-lg-5"
+                        />
+                      </div>
+                    </div>
+                    <!-- hero text end -->
+                  </div>
+                </div>
+              </div>
+              <!-- hero graphic right side images -->
+              <!-- hero image -->
+              <div class="col-6 col-sm-6 col-lg-6 pl-0 pr-0">
+                <div class="d-lg-none">
+                  <picture>
+                    <source
+                      srcset="
+                        ../../../../assets/img/musicbiz/musicbiz-hero-large-reduced.webp
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../../../../assets/img/musicbiz/musicbiz-hero-large-reduced.png
+                      "
+                      type="image/png"
+                    />
+                    <img
+                      src="../../../../assets/img/musicbiz/musicbiz-hero-large-reduced.png"
+                      alt="Music lessons"
+                      class="img-fluid position-relative musicbiz-hero-image"
+                    />
+                  </picture>
+                </div>
+
+                <div class="d-none d-lg-block"></div>
+                <span class="d-none d-lg-block ml-n1 ml-sm-auto ml-xl-n3">
+                  <img
+                    src="../../../../assets/img/musicbiz/musicbiz-hero-large-reduced.png"
+                    class="position-relative mt-n2 ml-n1 mt-lg-n4 ml-lg-auto ml-xl-n4 img-fluid p-3 musicbiz-hero-image-large"
+                  />
+                </span>
+                <div class="p-lg-3 p-xl-4"></div>
+              </div>
+            </div>
+          </div>
+          <!-- hero image end -->
+        </section>
+        <!-- gradient end -->
+      </section>
+      <!-- option 1 end -->
+    </section>
+    <!-- main hero image end -->
+
+    <!-- dividers -->
+    <div class="bg-mb-secondary pt-2 pb-2"></div>
+
+    <!-- card design call to action start -->
+    <section class="pl-3 pr-3 mt-4 mt-md-4 mb-md-3 mt-md-0 mb-lg-0">
+      <div class="overview-card-container-lg-and-xl position-relative">
+        <!-- overview-card-container-lg-and-xl start -->
+        <div class="container">
+          <!-- container 1 start -->
+          <div class="row justify-content-center pl-md-3 pr-md-3">
+            <!-- row 1 start -->
+            <div class="col-md-12 col-lg-11 col-xl-10 shadow bg-white rounded">
+              <!-- card length column start -->
+              <div class="row">
+                <!-- row 2 start -->
+                <!-- product intro start -->
+                <div
+                  class="col-md-8 col-lg-8 pt-3 pt-md-3 pb-md-2 pl-lg-4 pt-lg-4 pr-xl-5 bg-white rounded"
+                >
+                  <div class="mb-content">
+                    <h5 class="text-center text-sm-left text-mb-primary">
+                      Welcome to MusicBiz!
+                    </h5>
+                    <p>
+                      If teaching is your business, we have the software for
+                      you. Whatever the size of your school, MusicBiz will
+                      improve and automate all of those time consuming admin
+                      jobs you hate!
+                    </p>
+                  </div>
+                </div>
+                <!-- learn how benefits end -->
+
+                <!-- trial button cta container start -->
+                <!-- <div class="col-lg-1 bg-light"></div> -->
+                <div
+                  class="d-none d-md-block col-md-4 col-lg-4 pb-md-3 pt-md-3 pt-lg-0 pb-lg-0 bg-light rounded"
+                >
+                  <!-- circle arrow start -->
+                  <img
+                    src="../../../../assets/img/icon-right-arrow-circle.svg"
+                    class="right-arrow-icon-circle"
+                  />
+                  <!-- circle arrow end -->
+                  <div
+                    class="row text-md-center justify-content-md-center align-items-md-center pb-md-1 h-100"
+                  >
+                    <div class="col-md-12">
+                      <div
+                        class="d-inline-block text-uppercase font-weight-bold"
+                      >
+                        Start Your Free Trial
+                      </div>
+                      <div
+                        class="d-inline-block d-lg-block pl-md-2 pr-2 pr-lg-0 pb-lg-2 mb-md-3 mb-lg-0"
+                      >
+                        <div class="small">(No payment details required)</div>
+                      </div>
+                      <a
+                        class="btn-success btn text-white d-inline-block"
+                        href="sign_up.html"
+                      >
+                        Sign Up Now <i class="fas fa-caret-right pl-1"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!--trial button cta container end -->
+              </div>
+              <!-- row 2 end -->
+            </div>
+            <!-- card length column end -->
+          </div>
+          <!-- row 1 end -->
+        </div>
+        <!-- container 1 end -->
+      </div>
+      <!-- overview-card-container-lg-and-xl end -->
+    </section>
+    <!-- card design call to action end -->
+
+    <!-- Why use start -->
+    <section class="container pt-3 pt-lg-0 mt-lg-n5">
+      <!-- developed in Australia start -->
+
+      <div>
+        <!-- developed in Australia mobile view-->
+        <div class="container pt-3 pb-4 d-lg-none">
+          <div
+            class="d-lg-none row justify-content-center bg-white shadow rounded"
+          >
+            <div
+              class="col-4 bg-mb-primary d-flex align-items-center justify-content-center pt-3 pb-3 australia-map-card-styles"
+            >
+              <img
+                src="../../../../assets/img/generic-australia-map-filled-white.svg"
+                class="australia-map-styles-white"
+              />
+            </div>
+            <div
+              class="col-8 d-flex flex-column justify-content-center align-items-center"
+            >
+              <p class="text-center mb-1 mb-sm-2 mb-md-3">
+                Proudly owned and developed in Australia
+              </p>
+              <button
+                type="button"
+                class="btn btn-sm btn-outline-mb-primary"
+                data-toggle="modal"
+                data-target="#supportAustralianMade"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- developed in Australia desktop view-->
+        <div class="container d-none d-lg-block pb-4 made-in-australia-lg">
+          <div class="row justify-content-center">
+            <div class="col-8 d-flex align-items-center justify-content-center">
+              <img
+                src="../../../../assets/img/musicbiz/australia-map-outline.svg"
+                class="australia-map-biz-product"
+              />
+              <p class="pl-3 pr-3 mb-0">
+                Proudly owned and developed in Australia
+              </p>
+              <button
+                type="button"
+                class="btn btn-sm btn-outline-mb-primary"
+                data-toggle="modal"
+                data-target="#supportAustralianMade"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- developed in Australia modal -->
+        <div
+          class="modal fade"
+          id="supportAustralianMade"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="supportAustralianMade"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h6
+                  class="modal-title text-mb-primary"
+                  id="supportAustralianMade"
+                >
+                  Help Support Australian Makers
+                </h6>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img
+                  src="../../../../assets/img/thinksmart-support-australia-pic-2.jpg"
+                  class="img-fluid"
+                  alt="Support Australia"
+                />
+                <p class="pt-2 pt-md-3 mb-0">
+                  Local manufacturers, growers and craftspeople need our
+                  support. We can all make a positive impact on Australian
+                  industry by shopping local and seeking out products that are
+                  Australian made, in-store and online. There's never been a
+                  more important time to champion our Australian makers!
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-outline-mb-primary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- developed in Australia end -->
+
+      <div class="row justify-content-between">
+        <div
+          class="col-12 col-md-12 col-lg-6 pr-xl-5 d-lg-flex align-items-lg-center"
+        >
+          <!-- why use -->
+          <div class="">
+            <div class="mb-content">
+              <h5 class="text-mb-primary">Why use MusicBiz</h5>
+              <p>
+                MusicBiz is now trusted by over 2,000 businesses across the
+                globe. It allows schools of all sizes to manage their
+                administration in one easy to use software package. We aim to
+                give teachers their time back and focus on what they do best.
+              </p>
+              <p>
+                Whatever areas you need help with, MusicBiz has a range of
+                features that you can use. It will automate everything from your
+                timetabling and online registrations through to generating your
+                invoices and taking online payments. Once you try MusicBiz,
+                you'll never want to return to time consuming spreadsheets and
+                generic scheduling software again.
+              </p>
+              <p class="mb-lg-0">
+                Get your
+                <span class="text-mb-primary font-weight-bold"
+                  >FREE 14 day trial</span
+                >
+                and see for yourself why MusicBiz is the software of choice for
+                so many schools.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- feature video start -->
+        <div
+          class="col-12 col-md-12 col-lg-6 col-xl-6 align-self-lg-center pl-lg-0 pr-lg-0"
+        >
+          <!-- video url -->
+          <div class="">
+            <div class="mb-content">
+              <div class="iframe-container">
+                <div
+                  class="wistia_embed wistia_async_[Template data: template_slots.video_embed_code]"
+                >
+                  &nbsp;
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- feature video end -->
+      </div>
+      <!-- end of row -->
+    </section>
+    <!-- why use end -->
+    <!-- everything you need start option -->
+
+    <div class="p-lg-4"></div>
+    <section class="mt-xl-5 mt-3 mb-lg-5 position-relative overflow-show">
+      <section class="mb-gradient"></section>
+      <div class="hero-gradient-background-flipped"></div>
+      <div class="hero-gradient-background"></div>
+
+      <!-- angled shape containers start -->
+      <div class="d-none shape-backgrounds-container">
+        <div class="shape-graphic-container-left">
+          <div class="shape-graphic-left-side-a"></div>
+          <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+          <div
+            class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+          ></div>
+          <div class="shape-graphic-left-side-a-last d-none d-xl-block"></div>
+        </div>
+        <div class="shape-right">
+          <div class="shape-graphic-left-side-a"></div>
+          <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+          <div
+            class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+          ></div>
+          <div class="shape-graphic-left-side-a-last d-none d-xl-block"></div>
+        </div>
+      </div>
+      <!-- angled-shaped-containers end -->
+
+      <!-- small angled shape containers start -->
+      <div class="position-absolute h-100 w-100 overflow-hidden">
+        <div class="d-none d-lg-block shape-graphic-small-1"></div>
+        <div class="d-none d-lg-block shape-graphic-small-2"></div>
+        <div class="d-none d-lg-block shape-graphic-small-3"></div>
+        <div class="d-none d-lg-block shape-graphic-small-4"></div>
+        <div class="d-none d-lg-block shape-graphic-small-5"></div>
+        <div class="d-none d-lg-block shape-graphic-small-6"></div>
+      </div>
+      <!-- angled-shaped-containers end -->
+
+      <div class="container pt-3 pb-md-3">
+        <div class="row align-items-md-center align-items-lg-start">
+          <div class="col-12 col-md-6 col-lg-5">
+            <!-- devices images start-->
+            <div class="position-relative mt-lg-2 mt-xl-n4">
+              <img
+                src="../../../../assets/img/musicbiz/musicbiz-overview-devices.png"
+                class="d-lg-none img-fluid"
+                alt="tablet, desktop, smartphone"
+              />
+              <img
+                src="../../../../assets/img/musicbiz/musicbiz-overview-devices.png"
+                class="d-none d-lg-block position-absolute mt-lg-n5 mt-xl-n4 img-fluid ml-xl-2 pr-xl-2"
+                alt="tablet, desktop, smartphone"
+              />
+            </div>
+          </div>
+          <!-- devices images end -->
+
+          <!-- what's included text start -->
+          <div class="col-12 col-md-6 col-lg-7">
+            <h5
+              class="pt-3 pt-sm-4 pt-md-3 mb-0 mb-lg-2 text-white text-center"
+            >
+              Everything you need!
+            </h5>
+            <div class="row">
+              <div class="col-12 pl-3 pr-0 pr-xl-0">
+                <ul
+                  class="text-white list-unstyled d-sm-flex d-md-block d-lg-flex"
+                >
+                  <div class="pl-3 pl-sm-0">
+                    <li class="d-flex mt-2">
+                      <div class="">
+                        <img
+                          src="../../../../assets/img/icon-ok-checks-responsive.svg"
+                          class="pr-2"
+                        />
+                      </div>
+                      <div class="pt-2">Free email & phone support</div>
+                    </li>
+                    <li class="d-flex mt-2">
+                      <div class="">
+                        <img
+                          src="../../../../assets/img/icon-ok-checks-responsive.svg"
+                          class="pr-2"
+                        />
+                      </div>
+                      <div class="pt-2">Account setup & training included</div>
+                    </li>
+                  </div>
+                  <div class="pl-3 pl-sm-3 pl-md-0 pl-lg-3 pl-xl-5">
+                    <li class="d-flex mt-2">
+                      <div class="">
+                        <img
+                          src="../../../../assets/img/icon-ok-checks-responsive.svg"
+                          class="pr-2"
+                        />
+                      </div>
+                      <div class="pt-2">Login from anywhere</div>
+                    </li>
+                    <li class="d-flex mt-2">
+                      <div class="">
+                        <img
+                          src="../../../../assets/img/icon-ok-checks-responsive.svg"
+                          class="pr-2"
+                        />
+                      </div>
+                      <div class="pt-2">Unlimited logins for staff</div>
+                    </li>
+                  </div>
+                </ul>
+              </div>
+              <!-- end col -->
+            </div>
+            <!-- end row -->
+          </div>
+          <!-- what's included text end -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- what's included end -->
+
+    <div class="w-100 p-2 p-sm-2 p-lg-4 p-xl-5"></div>
+
+    <!--  testimonials with logo start -->
+    <section
+      class="container testimonials-card rounded pt-lg-3 pb-lg-3 pt-xl-4 pb-xl-4"
+    >
+      <h5 class="text-center text-mb-primary mb-0 mb-lg-2 pb-xl-1 pt-lg-1">
+        What our clients say
+      </h5>
+
+      <!-- testimonials overview page start -->
+      <div id="overview-page-all-testimonials" class="">
+        <div class="mb-content">
+          <div class="main-slide-container-for-client-testimonials">
+            <div
+              id="carouselClientIndicators"
+              class="carousel carousel-fade"
+              data-ride="carousel"
+              data-interval="12000"
+            >
+              <div class="carousel-inner testimonials-slide-container">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <div
+                      class="row justify-content-center align-items-lg-center"
+                    >
+                      <div
+                        class="col-10 col-lg-4 col-xl-3 text-center align-self-lg-center pl-xl-0 pr-xl-0"
+                      >
+                        <div
+                          class="col-12 col-sm-8 col-md-8 col-lg-12 ml-auto mr-auto p-0"
+                        >
+                          <img
+                            src="../../../../assets/img/musicbiz/musicbiz-hero-large-reduced.png"
+                            class="img-fluid ml-auto mr-auto"
+                            alt="[Template data: testimonial.image.AltText]"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="col-10 col-lg-7 col-xl-8 align-self-lg-center"
+                      >
+                        <p class="pt-2 pt-md-0 mb-1 mb-lg-2">
+                          [Template data: testimonial.TestimonialText]
+                        </p>
+                        <figcaption class="pb-3 pb-lg-0">
+                          — [Template data: testimonial.Author],
+                          <span class="font-italic"
+                            >[Template data: testimonial.Company]</span
+                          >
+                        </figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ol class="cb carousel-indicators">
+                <li
+                  data-target="#carouselClientIndicators"
+                  data-slide-to="[Template data: i]"
+                  active
+                ></li>
+              </ol>
+              <a
+                class="carousel-control-prev"
+                href="#carouselClientIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon mt-xl-n3"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselClientIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon mt-xl-n3"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- testimonials overview end -->
+      <div class="p-lg-2 p-xl-2"></div>
+    </section>
+
+    <!-- dancebiz partners only -->
+    <div>
+      <div class="d-none"></div>
+    </div>
+
+    <!-- who we work with partners start -->
+    <section class="container pt-4 pt-lg-4 pt-xl-5 pb-lg-5">
+      <h5 class="text-center mb-0 text-mb-primary">
+        Our Finance & Payment Partners
+      </h5>
+
+      <!-- mobile view to sm view -->
+      <div class="d-md-none main-slide-container-for-partners">
+        <div
+          id="carouselPartnerIndicators"
+          class="carousel carousel-fade"
+          data-ride="carousel"
+        >
+          <div
+            class="carousel-inner partners-slide-container d-flex align-items-center"
+          >
+            <div class="carousel-item active">
+              <div
+                class="w-50 d-block ml-auto mr-auto pl-2 pr-2 pl-sm-5 pr-sm-5"
+              >
+                <img
+                  src="../../../../assets/img/logo-xero-software.svg"
+                  class="img-fluid pl-4 pr-4"
+                  alt="Xero"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-75 d-block ml-auto mr-auto">
+                <img
+                  src="../../../../assets/img/logo-intuit-quickbooks-preferred.svg"
+                  class="img-fluid pl-2 pr-2"
+                  alt="QuickBooks"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-50 d-block ml-auto mr-auto">
+                <img
+                  src="../../../../assets/img/logo-stripe.svg"
+                  class="img-fluid"
+                  alt="Stripe"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-75 d-block ml-auto mr-auto">
+                <img
+                  src="../../../../assets/img/logo-gocardless.svg"
+                  class="img-fluid pl-2 pr-2"
+                  alt="go cardless"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-75 d-block ml-auto mr-auto">
+                <img
+                  src="../../../../assets/img/logo-worldpay.svg"
+                  class="img-fluid pl-2 pr-2"
+                  alt="Worldpay"
+                />
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="w-75 d-block ml-auto mr-auto">
+                <img
+                  src="../../../../assets/img/logo-ezi-debit.svg"
+                  class="img-fluid pl-2 pr-2"
+                  alt="Ezidebit"
+                />
+              </div>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselPartnerIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselPartnerIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselPartnerIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselPartnerIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselPartnerIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselPartnerIndicators" data-slide-to="5"></li>
+          </ol>
+          <a
+            class="carousel-control-prev"
+            href="#carouselPartnerIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselPartnerIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!-- md and up view start -->
+      <div class="d-none d-md-block">
+        <div class="row align-items-center justify-content-center pt-lg-4">
+          <div class="col-md-4 col-lg-4 pl-md-5 pr-md-5 pl-lg-5 pr-lg-5">
+            <img
+              src="../../../../assets/img/logo-xero-software.svg"
+              class="img-fluid pl-lg-5 pr-lg-5"
+              alt="Xero"
+            />
+          </div>
+          <div class="col-md-7 col-lg-4">
+            <img
+              src="../../../../assets/img/logo-intuit-quickbooks-preferred.svg"
+              class="img-fluid"
+              alt="QuickBooks"
+            />
+          </div>
+
+          <!-- divider mobile start -->
+          <div class="d-lg-none w-100 pt-md-4"></div>
+          <!-- divider end -->
+
+          <div class="col-md-5 col-lg-4 pl-4 pr-4 pl-lg-5 pr-lg-5">
+            <img
+              src="../../../../assets/img/logo-stripe.svg"
+              class="img-fluid pl-md-3 pr-md-3 pl-lg-5 pr-lg-5"
+              alt="Stripe"
+            />
+          </div>
+
+          <!-- divider large start -->
+          <div class="d-none d-lg-block w-100 pt-lg-4 mt-xl-3"></div>
+          <!-- divider end -->
+
+          <div class="col-md-5 col-lg-4 pl-lg-5 pr-lg-5">
+            <img
+              src="../../../../assets/img/logo-gocardless.svg"
+              class="img-fluid"
+              alt="go cardless"
+            />
+          </div>
+
+          <!-- divider mobile start -->
+          <div class="d-lg-none w-100 pt-md-4"></div>
+          <!-- divider end -->
+
+          <div class="col-md-5 col-lg-4 pl-lg-5 pr-lg-5">
+            <img
+              src="../../../../assets/img/logo-worldpay.svg"
+              class="img-fluid"
+              alt="Worldpay"
+            />
+          </div>
+          <div class="col-md-5 col-lg-4 pl-lg-5 pr-lg-5">
+            <img
+              src="../../../../assets/img/logo-ezi-debit.svg"
+              class="img-fluid"
+              alt="Ezidebit"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- md and up view end -->
+    </section>
+    <!-- who we work with end -->
+
+    <div class="mt-4 mt-lg-5 pt-lg-2"></div>
+    <div class="bg-mb-secondary pt-1 pb-2"></div>
+    <!-- footer start -->
+    <section class="d-block position-relative pb-5 pb-md-0 mb-md-0">
+      <div class="mb-gradient gradient-inset-shadow-deep-footer"></div>
+      <footer class="text-white pt-1 pb-3">
+        <!-- container for company logo, contact details and social media links start -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <!-- company info / logo -->
+            <div class="col-12 col-md-4 col-lg-3 col-xl-4">
+              <div
+                class="d-flex align-items-center justify-content-center justify-content-md-start mt-3"
+              >
+                <div class="icon-logo-style-footer">
+                  <img
+                    src="../../../../assets/img/musicbiz/logo-icon-musicbiz.svg"
+                    class="img-fluid generic-svg-shadow-footer"
+                    alt="MusicBiz"
+                  />
+                </div>
+                <div
+                  class="h4 font-weight-normal text-shadow ml-1 pl-1 pl-1 pt-2"
+                >
+                  Music<strong>Biz</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- company contact / get in touch with us start -->
+            <div
+              class="mt-4 mt-md-3 mt-lg-3 col-8 col-sm-8 col-md-8 col-lg-6 col-xl-6 pl-lg-3 pl-xl-4"
+            >
+              <span class="text-center text-md-left text-shadow">
+                <h5 class="text-mb-secondary">Get in touch with us</h5>
+              </span>
+
+              <div class="row">
+                <!-- sales -->
+                <div class="pl-sm-4 pl-md-3 col-12 mt-2 mb-lg-2">
+                  <div class="row align-items-center">
+                    <!-- call -->
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-au h5 m-0"></div>
+                        <div class="pl-2">AUS</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- australia number -->
+                      <span class="text-white ml-xl-n2">61 3 9018 9594 </span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-gb h5 m-0 p-0"></div>
+                        <div class="pl-2 pr-2">UK</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- uk number -->
+                      <span class="text-white ml-xl-n2">01483 422 080</span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-ae h5 m-0 p-0"></div>
+                        <div class="pl-2 pr-2">UAE</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- uae number -->
+                      <span class="text-white ml-xl-n2">971 585 19 0406</span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <!-- contact us via our online form -->
+                    <div class="pl-sm-5 pl-md-3 col-auto pr-0">
+                      <div class="text-center">
+                        <i class="fas fa-edit fa-lg pl-1"></i>
+                      </div>
+                    </div>
+                    <div class="col-9 text-left pl-2">
+                      Or contact us via our
+                      <a
+                        href="../../shared_pages/contact_us.html"
+                        class="text-white font-weight-bold"
+                        >online form</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- company contact / get in touch with us end -->
+
+            <!-- stay updated, social media start -->
+            <div
+              class="mt-4 mt-md-3 mt-lg-3 col-12 col-md-4 col-lg-2 col-xl-2 pl-lg-0 pl-xl-3"
+            >
+              <div class="pl-xl-4">
+                <span class="text-center text-md-left text-shadow">
+                  <h5 class="text-mb-secondary">Stay updated</h5>
+                </span>
+
+                <div
+                  class="text-center text-md-left pt-lg-1 pt-xl-2 text-xl-left"
+                >
+                  <a
+                    href="https://www.facebook.com/ThinkSmartSoftware"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="Facebook"
+                    class="h4"
+                    ><i class="fa-brands fa-facebook-square text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/thinksmart_software/"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="Instagram"
+                    class="h4"
+                    ><i class="fa-brands fa-instagram text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://au.linkedin.com/company/thinksmart-software"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="LinkedIn"
+                    class="h4"
+                    ><i class="fa-brands fa-linkedin text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://www.twitter.com/tweetthinksmart"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="X"
+                    class="h4"
+                    ><i
+                      class="fa-brands fa-square-x-twitter text-white pr-2"
+                    ></i
+                  ></a>
+
+                  <!-- back to top start -->
+                  <!-- <div class="text-center text-md-left text-xl-left pt-xl-2">
+                                <small><a href="#top" class="text-white"><i class="fas fa-caret-up pr-1"></i>Back to top</a></small>
+                            </div> -->
+                  <!-- back to top end -->
+
+                  <!-- <div id="footer-country-selector" class="d-none pt-4 pt-md-0 pt-lg-4 mt-1">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="text-white dropdown-toggle text-reset" href="" id="dropdown-country" data-toggle="dropdown"
+                                           aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-au"></span> AU</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown-country">
+                                            <a class="dropdown-item" href="#gb"><span class="flag-icon flag-icon-gb"></span> UK</a>
+                                            <a class="dropdown-item" href="#au"><span class="flag-icon flag-icon-us"></span> USA</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- stay updated, social media end -->
+          </div>
+        </div>
+      </footer>
+
+      <!-- bottom footer menu -->
+      <footer class="position-relative">
+        <div
+          class="bg-mb-dark dark-strip-footer d-none d-md-block nav-gradient-footer-bottom-strip"
+        ></div>
+        <div class="position-relative">
+          <ul class="nav justify-content-center pt-2 position-relative">
+            <li>
+              <a class="text-white" href="home.html">Overview</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li>
+              <a class="text-white" href="features.html">Features</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="pricing.html">Pricing</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="download.html">Download</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li>
+              <a class="text-white" href="../../shared_pages/blog.html">Blog</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="../../shared_pages/about_us.html"
+                >About Us</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="../../shared_pages/contact_us.html"
+                >Contact Us</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li><a class="text-white" href="sign_up.html">Free Trial</a></li>
+
+            <!-- additional menu item no content yet start -->
+            <li class="d-none">
+              <span class="text-white d-inline pl-2 pr-0">|</span>
+              <div class="footer-dropdown-item dropup d-inline-flex">
+                <a
+                  class="dropdown-toggle border-0 pt-0 pb-0 pl-1 text-white"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a
+                    class="dropdown-item"
+                    href="../../shared_pages/partners.html"
+                    >Partners</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="../../shared_pages/franchising.html"
+                    >Franchising</a
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- additional menu item no content yet end -->
+          </ul>
+          <div class="text-center text-white pt-2 pt-sm-1 pt-md-1 pb-4 pb-md-2">
+            <small>
+              <span class="d-block d-sm-inline"
+                >© <span class="current_year"></span>
+                <a href="../../thinksmart_pages/home.html" class="text-white"
+                  >ThinkSmart Software Pty Ltd</a
+                >
+                -
+              </span>
+              <!-- au privacy policy -->
+              <a
+                class="text-white"
+                target="_blank"
+                href="../../thinksmart_pages/agreements.html"
+                >Privacy Policy</a
+              >
+              <!-- uk privacy policy -->
+              <!-- <a class="text-white" target="_blank" href="https://www.thinksmartsoftware.com/en-gb/privacy-policy.html">Privacy Policy</a> -->
+              <!-- usa privacy policy -->
+              <!-- <a class="text-white" target="_blank" href="https://www.thinksmartsoftware.com/en-us/privacy-policy.html">Privacy Policy</a> -->
+            </small>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end of bottom navigation -->
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        var d = new Date();
+        var y = d.getFullYear();
+        $(".current_year").empty().append(y);
+
+        var get_user_country_code = "";
+        if (!cookieFunctions.getCookie("country")) {
+          get_user_country_code = "AU";
+          get_user_country_code = get_user_country_code.toLowerCase();
+
+          cookieFunctions.setCookie("country", get_user_country_code);
+        } else {
+          get_user_country_code = cookieFunctions.getCookie("country");
+        }
+
+        $("#contact-" + get_user_country_code + "-button").click();
+
+        var get_user_country_name = "";
+        if (!cookieFunctions.getCookie("country_name")) {
+          get_user_country_name = "Australia";
+
+          cookieFunctions.setCookie("country_name", get_user_country_name);
+        } else {
+          get_user_country_name = cookieFunctions.getCookie("country_name");
+        }
+
+        $("[name=country], [name=Country]").val(get_user_country_name);
+
+        $(".learn-more-button").click(function (e) {
+          e.preventDefault();
+          const cc_url = "https://clearcourse.liberis.com/";
+          window.open(cc_url);
+        });
+      });
+    </script>
+  </body>
+</html>

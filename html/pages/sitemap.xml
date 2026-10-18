@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Static template export; replace [Template data: ...] values with live sitemap data. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>[Template data: page.loc]</loc>
+    <lastmod>[Template data: page.lastmod]</lastmod>
+  </url>
+</urlset>

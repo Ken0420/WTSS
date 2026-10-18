@@ -1,0 +1,770 @@
+<!-- Static template export; replace [Template data: ...] values with live data. -->
+<!DOCTYPE html>
+<html lang="en" data-product="SportsBiz">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SportsBiz | Features</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <!-- Dynamic SEO metadata omitted from static export. -->
+    <!-- Dynamic favicon links omitted from static export. -->
+
+    <!-- web fonts CDN -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Tracking pixel omitted from static export. -->
+
+    <!-- flag cdn -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom styles -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../../assets/css/base.css"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Google tag (gtag.js) -->
+
+    <script>
+      var cookieFunctions = {
+        setCookie: function (e, t, n) {
+          var a = "";
+          if (n) {
+            var o = new Date();
+            o.setTime(o.getTime() + 24 * n * 60 * 60 * 1e3),
+              (a = "; expires=" + o.toUTCString());
+          }
+          document.cookie = e + "=" + (t || "") + a + "; path=/";
+        },
+        getCookie: function (e) {
+          for (
+            var t = e + "=", n = document.cookie.split(";"), a = 0;
+            a < n.length;
+            a++
+          ) {
+            for (var o = n[a]; " " == o.charAt(0); )
+              o = o.substring(1, o.length);
+            if (0 == o.indexOf(t)) return o.substring(t.length, o.length);
+          }
+          return null;
+        },
+        eraseCookie: function (e) {
+          document.cookie = e + "=; Max-Age=-99999999;";
+        },
+      };
+      function getUrlVars() {
+        var e = {};
+        return (
+          window.location.href.replace(
+            /[?&]+([^=&]+)=([^&]*)/gi,
+            function (t, n, a) {
+              e[n] = a;
+            }
+          ),
+          e
+        );
+      }
+      function getUrlParam(e, t) {
+        var n = t;
+        return window.location.href.indexOf(e) > -1 && (n = getUrlVars()[e]), n;
+      }
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+      var campaign_variables = [
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "utm_term",
+        "utm_content",
+      ];
+      campaign_variables.forEach(function (e, t, n) {
+        var a = getUrlParam(e, null);
+        null !== a && cookieFunctions.setCookie(e, escape(a), 7);
+      });
+    </script>
+
+    <script>
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+    </script>
+  </head>
+  <body
+    class="product-sportsbiz"
+    data-product="SportsBiz"
+    data-spy="scroll"
+    data-target="#features-sidebar-categories"
+  >
+    <a id="top"></a>
+    <header>
+      <!-- nav start -->
+      <nav
+        class="navbar fixed-top navbar-default navbar-dark navbar-expand-lg nav-gradient p-lg-0"
+      >
+        <div class="container">
+          <div class="nav-top-bg bg-sb-dark"></div>
+          <a class="navbar-brand p-lg-0" href="home.html">
+            <div class="d-flex align-items-center">
+              <div class="icon-logo-style">
+                <img
+                  src="../../../../assets/img/sportsbiz/logo-icon-sportsbiz.svg"
+                  class="img-fluid logo-icon-svg-shadow"
+                  alt="SportsBiz"
+                />
+              </div>
+              <div
+                class="h4 font-weight-normal text-shadow ml-1 pl-1 pl-1 pt-2"
+              >
+                Sports<strong>Biz</strong>
+              </div>
+            </div>
+          </a>
+
+          <!-- trial button in tablet mode only start -->
+          <div class="d-none d-md-block d-lg-none ml-md-auto pr-md-3">
+            <a
+              class="btn-success btn text-center text-white"
+              href="sign_up.html"
+              >Free Trial</a
+            >
+          </div>
+          <!-- trial button in tablet mode end -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-lg-2">
+              <li class="nav-item pt-lg-4 pb-lg-4 border-bottom-sm-md">
+                <a class="nav-link text-white" href="home.html"
+                  >Overview <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="features.html">Features</a>
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="download.html">Download</a>
+              </li>
+
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../../shared_pages/blog.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../../shared_pages/about_us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item pt-lg-4 pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../../shared_pages/contact_us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+
+            <a
+              class="btn-success btn d-none d-lg-inline-block mb-1 mb-md-0 ml-md-1 text-white"
+              href="sign_up.html"
+              >Free Trial</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- nav end -->
+    </header>
+
+    <section class="hero-container overflow-hidden">
+      <section class="sb-gradient"></section>
+
+      <!-- hero-gradient-dark start -->
+      <div class="d-none d-md-block hero-gradient-background"></div>
+      <!-- hero-gradient-dark end -->
+
+      <div class="shape-backgrounds-container">
+        <div class="ml-n4 shape-graphic-container-left">
+          <div class="shape-graphic-left-side-a"></div>
+          <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+          <div
+            class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+          ></div>
+          <div class="shape-graphic-left-side-a-last d-none d-xl-block"></div>
+        </div>
+        <div class="shape-right">
+          <div class="shape-graphic-left-side-a"></div>
+          <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+          <div
+            class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+          ></div>
+          <div class="shape-graphic-left-side-a-last d-none d-xl-block"></div>
+        </div>
+      </div>
+      <!-- angled-shaped-containers end -->
+
+      <!-- hero images start -->
+      <div class="pt-5 pb-5 mt-xl-4"></div>
+
+      <div class="container pt-0">
+        <div
+          class="row pt-0 pt-lg-4 pt-xl-0 align-items-md-center align-items-lg-start"
+        >
+          <!-- column 1 -->
+          <div class="col-12 col-md-6 col-lg-5 order-md-last d-lg-none">
+            <img
+              src="../../../../assets/img/sportsbiz/sportsbiz-ipad-and-mac-screen.png"
+              class="img-fluid pl-3 pr-3 mt-3 d-lg-none"
+            />
+            <!-- <img src="../../../../assets/img/swimbiz/swimbiz-ipad-and-mac-screen.png" class="img-fluid pl-3 pr-3 mt-3 d-lg-none"> -->
+          </div>
+          <div class="col-12 col-md-6 col-lg-7 mb-xl-3">
+            <h3 class="font-weight-light text-white pt-xl-3">Features</h3>
+            <p class="text-white mb-xl-4 pr-lg-4 pr-xl-5">
+              From class scheduling to invoicing and taking payments,
+              <span id="biz-product-name-change">
+                <span class="sb-content"> SportsBiz </span>
+              </span>
+              is feature packed with everything you need to run your
+
+              <span class="sb-content"> sports club </span>
+
+              efficiently.
+            </p>
+          </div>
+          <!-- column 2 -->
+          <!-- vertical icons then horizontal icons at sm sreen and up -->
+          <div class="d-none col-12 col-md-7 col-lg-6 pl-md-0 pr-md-0"></div>
+        </div>
+      </div>
+      <!-- hero images container end -->
+    </section>
+    <!-- divider -->
+    <div class="bg-sb-secondary p-2 mb-md-0"></div>
+
+    <!-- will only appear on large and up screens -->
+    <section class="d-none d-md-block bg-light pt-3 pb-3 mb-3 mb-md-4 mb-lg-4">
+      <div class="container pb-1">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <span class="mr-2">Are you a new customer?</span>
+            <a class="btn-success btn text-white" href="sign_up.html"
+              >Start Your Free Trial
+              <i class="fas fa-caret-right pl-2"></i>
+            </a>
+          </div>
+          <div class="d-none d-lg-block col-lg-4">
+            <img
+              src="../../../../assets/img/sportsbiz/sportsbiz-ipad-and-mac-screen.png"
+              class="d-none d-lg-block features-hero-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- this is the end of the hero image -->
+
+    <!-- start of features section mobile -->
+    <div
+      id="mobile-menu"
+      class="container d-lg-none sticky-top sticky-offset-mobile bg-white pt-2 pb-4"
+    >
+      <div class="">
+        <h5 class="text-center pt-3 text-sb-primary">Categories</h5>
+        <div class="dropdown border-bottom">
+          <button
+            class="d-flex justify-content-between align-items-center pb-1 mb-0 w-100 btn"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Please select an item<span class="dropdown-toggle"></span>
+          </button>
+          <div
+            class="w-100 dropdown-menu"
+            aria-labelled-by="dropdownMenuButton"
+          >
+            <a
+              class="dropdown-item"
+              href="#category-[Template data: features_category.featureCategoryVariableID]"
+              >[Template data: features_category.CategoryName]</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of features section mobile -->
+
+    <!-- main items -->
+    <div class="container pt-lg-2 pt-xl-3">
+      <!-- main container -->
+      <div class="row justify-content-xl-between">
+        <!-- sidebar left side -->
+        <div class="d-none d-lg-block pl-lg-0 col-lg-4 col-xl-3">
+          <div
+            id="features-sidebar-categories"
+            class="sticky-top sticky-offset list-group list-group-flush"
+          >
+            <h5 class="pb-lg-2 pl-lg-4 pl-xl-3 text-sb-primary">Categories</h5>
+
+            <a
+              href="#category-[Template data: features_category.featureCategoryVariableID]"
+              class="border-0 list-group-item list-group-item-action btn btn-transparent d-flex align-items-center text-reset pt-lg-2 pb-lg-2 pl-0 ml-lg-3 ml-xl-2 pl-xl-1"
+            >
+              <div class="pl-lg-2 pt-1">
+                [Template data: features_category.CategoryName]
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end of left column -->
+
+        <!-- main feature items right side -->
+        <div class="col-12 col-lg-8 col-xl-8 pl-xl-0 pr-xl-0">
+          <h5
+            id="category-[Template data: features_category.featureCategoryVariableID]"
+            class="text-center pt-4 pt-lg-0 pb-3 text-sb-primary features-category-header"
+          >
+            [Template data: features_category.CategoryName]
+          </h5>
+
+          <div
+            class="card mb-3 mb-lg-4"
+            id="accordion-[Template data: feature.featureVariableID]"
+          >
+            <div
+              class="border-0 rounded p-0 bg-transparent card-header-feature"
+              id="heading-[Template data: feature.featureVariableID]"
+            >
+              <a
+                class="d-block d-flex align-items-center link-unstyled text-reset collapsed features-accordion-arrow mb-0 p-3"
+                role="button"
+                data-toggle="collapse"
+                href="#collapse-[Template data: feature.featureVariableID]"
+                aria-expanded="false"
+                aria-controls="collapse-[Template data: feature.featureVariableID]"
+              >
+                <img
+                  src="../../../../assets/img/sportsbiz/sportsbiz-hero-image-reduced.png"
+                  class="features-icons-full-width"
+                  alt="[Template data: feature.imagesArray.FeatureIcon0.AltText]"
+                />
+                <span class="pl-2 pr-3 pl-sm-3"
+                  >[Template data: feature.Title]</span
+                >
+              </a>
+
+              <div
+                id="collapse-[Template data: feature.featureVariableID]"
+                class="bg-white rounded-bottom collapse collapsing"
+                data-parent="#accordion-[Template data: feature.featureVariableID]"
+                aria-labelledby="heading-1a"
+              >
+                <div class="card-body border-top">
+                  <div class="pre-wrap mb-0">
+                    [Template data:
+                    includetemplate_from_stringfeature.Description]
+                  </div>
+
+                  <div class="lightbox-gallery mt-2 mt-md-3">
+                    <a
+                      href="../../../../assets/img/sportsbiz/sportsbiz-hero-image-reduced.png"
+                      ><img
+                        src="../../../../assets/img/sportsbiz/sportsbiz-hero-image-reduced.png"
+                        alt="[Template data: feature.imagesArray.DescriptionImage0.AltText]"
+                        class="ml-auto mr-auto img-fluid"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <!-- end of accordion paragraph item container -->
+            </div>
+          </div>
+          <!-- end of accordion card -->
+        </div>
+        <!-- end of right column -->
+      </div>
+      <!-- end of main items container -->
+    </div>
+    <div class="mt-4 mt-lg-5 pt-lg-2"></div>
+    <div class="bg-sb-secondary pt-1 pb-2"></div>
+    <!-- footer start -->
+    <section class="d-block position-relative pb-5 pb-md-0 mb-md-0">
+      <div class="sb-gradient gradient-inset-shadow-deep-footer"></div>
+      <footer class="text-white pt-1 pb-3">
+        <!-- container for company logo, contact details and social media links start -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <!-- company info / logo -->
+            <div class="col-12 col-md-4 col-lg-3 col-xl-4">
+              <div
+                class="d-flex align-items-center justify-content-center justify-content-md-start mt-3"
+              >
+                <div class="icon-logo-style-footer">
+                  <img
+                    src="../../../../assets/img/sportsbiz/logo-icon-sportsbiz.svg"
+                    class="img-fluid generic-svg-shadow-footer"
+                    alt="SportsBiz"
+                  />
+                </div>
+                <div
+                  class="h4 font-weight-normal text-shadow ml-1 pl-1 pl-1 pt-2"
+                >
+                  Sports<strong>Biz</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- company contact / get in touch with us start -->
+            <div
+              class="mt-4 mt-md-3 mt-lg-3 col-8 col-sm-8 col-md-8 col-lg-6 col-xl-6 pl-lg-3 pl-xl-4"
+            >
+              <span class="text-center text-md-left text-shadow">
+                <h5 class="text-sb-secondary">Get in touch with us</h5>
+              </span>
+
+              <div class="row">
+                <!-- sales -->
+                <div class="pl-sm-4 pl-md-3 col-12 mt-2 mb-lg-2">
+                  <div class="row align-items-center">
+                    <!-- call -->
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-au h5 m-0"></div>
+                        <div class="pl-2">AUS</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- australia number -->
+                      <span class="text-white ml-xl-n2">61 3 9018 9594 </span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-gb h5 m-0 p-0"></div>
+                        <div class="pl-2 pr-2">UK</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- uk number -->
+                      <span class="text-white ml-xl-n2">01483 422 080</span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-ae h5 m-0 p-0"></div>
+                        <div class="pl-2 pr-2">UAE</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- uae number -->
+                      <span class="text-white ml-xl-n2">971 585 19 0406</span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <!-- contact us via our online form -->
+                    <div class="pl-sm-5 pl-md-3 col-auto pr-0">
+                      <div class="text-center">
+                        <i class="fas fa-edit fa-lg pl-1"></i>
+                      </div>
+                    </div>
+                    <div class="col-9 text-left pl-2">
+                      Or contact us via our
+                      <a
+                        href="../../shared_pages/contact_us.html"
+                        class="text-white font-weight-bold"
+                        >online form</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- company contact / get in touch with us end -->
+
+            <!-- stay updated, social media start -->
+            <div
+              class="mt-4 mt-md-3 mt-lg-3 col-12 col-md-4 col-lg-2 col-xl-2 pl-lg-0 pl-xl-3"
+            >
+              <div class="pl-xl-4">
+                <span class="text-center text-md-left text-shadow">
+                  <h5 class="text-sb-secondary">Stay updated</h5>
+                </span>
+
+                <div
+                  class="text-center text-md-left pt-lg-1 pt-xl-2 text-xl-left"
+                >
+                  <a
+                    href="https://www.facebook.com/ThinkSmartSoftware"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="Facebook"
+                    class="h4"
+                    ><i class="fa-brands fa-facebook-square text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/thinksmart_software/"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="Instagram"
+                    class="h4"
+                    ><i class="fa-brands fa-instagram text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://au.linkedin.com/company/thinksmart-software"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="LinkedIn"
+                    class="h4"
+                    ><i class="fa-brands fa-linkedin text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://www.twitter.com/tweetthinksmart"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="X"
+                    class="h4"
+                    ><i
+                      class="fa-brands fa-square-x-twitter text-white pr-2"
+                    ></i
+                  ></a>
+
+                  <!-- back to top start -->
+                  <!-- <div class="text-center text-md-left text-xl-left pt-xl-2">
+                                <small><a href="#top" class="text-white"><i class="fas fa-caret-up pr-1"></i>Back to top</a></small>
+                            </div> -->
+                  <!-- back to top end -->
+
+                  <!-- <div id="footer-country-selector" class="d-none pt-4 pt-md-0 pt-lg-4 mt-1">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="text-white dropdown-toggle text-reset" href="" id="dropdown-country" data-toggle="dropdown"
+                                           aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-au"></span> AU</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown-country">
+                                            <a class="dropdown-item" href="#gb"><span class="flag-icon flag-icon-gb"></span> UK</a>
+                                            <a class="dropdown-item" href="#au"><span class="flag-icon flag-icon-us"></span> USA</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- stay updated, social media end -->
+          </div>
+        </div>
+      </footer>
+
+      <!-- bottom footer menu -->
+      <footer class="position-relative">
+        <div
+          class="bg-sb-dark dark-strip-footer d-none d-md-block nav-gradient-footer-bottom-strip"
+        ></div>
+        <div class="position-relative">
+          <ul class="nav justify-content-center pt-2 position-relative">
+            <li>
+              <a class="text-white" href="home.html">Overview</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li>
+              <a class="text-white" href="features.html">Features</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="pricing.html">Pricing</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="download.html">Download</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li>
+              <a class="text-white" href="../../shared_pages/blog.html">Blog</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="../../shared_pages/about_us.html"
+                >About Us</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="../../shared_pages/contact_us.html"
+                >Contact Us</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li><a class="text-white" href="sign_up.html">Free Trial</a></li>
+
+            <!-- additional menu item no content yet start -->
+            <li class="d-none">
+              <span class="text-white d-inline pl-2 pr-0">|</span>
+              <div class="footer-dropdown-item dropup d-inline-flex">
+                <a
+                  class="dropdown-toggle border-0 pt-0 pb-0 pl-1 text-white"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a
+                    class="dropdown-item"
+                    href="../../shared_pages/partners.html"
+                    >Partners</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="../../shared_pages/franchising.html"
+                    >Franchising</a
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- additional menu item no content yet end -->
+          </ul>
+          <div class="text-center text-white pt-2 pt-sm-1 pt-md-1 pb-4 pb-md-2">
+            <small>
+              <span class="d-block d-sm-inline"
+                >© <span class="current_year"></span>
+                <a href="../../thinksmart_pages/home.html" class="text-white"
+                  >ThinkSmart Software Pty Ltd</a
+                >
+                -
+              </span>
+              <!-- au privacy policy -->
+              <a
+                class="text-white"
+                target="_blank"
+                href="../../thinksmart_pages/agreements.html"
+                >Privacy Policy</a
+              >
+              <!-- uk privacy policy -->
+              <!-- <a class="text-white" target="_blank" href="https://www.thinksmartsoftware.com/en-gb/privacy-policy.html">Privacy Policy</a> -->
+              <!-- usa privacy policy -->
+              <!-- <a class="text-white" target="_blank" href="https://www.thinksmartsoftware.com/en-us/privacy-policy.html">Privacy Policy</a> -->
+            </small>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end of bottom navigation -->
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        var d = new Date();
+        var y = d.getFullYear();
+        $(".current_year").empty().append(y);
+
+        var get_user_country_code = "";
+        if (!cookieFunctions.getCookie("country")) {
+          get_user_country_code = "AU";
+          get_user_country_code = get_user_country_code.toLowerCase();
+
+          cookieFunctions.setCookie("country", get_user_country_code);
+        } else {
+          get_user_country_code = cookieFunctions.getCookie("country");
+        }
+
+        $("#contact-" + get_user_country_code + "-button").click();
+
+        var get_user_country_name = "";
+        if (!cookieFunctions.getCookie("country_name")) {
+          get_user_country_name = "Australia";
+
+          cookieFunctions.setCookie("country_name", get_user_country_name);
+        } else {
+          get_user_country_name = cookieFunctions.getCookie("country_name");
+        }
+
+        $("[name=country], [name=Country]").val(get_user_country_name);
+
+        $(".learn-more-button").click(function (e) {
+          e.preventDefault();
+          const cc_url = "https://clearcourse.liberis.com/";
+          window.open(cc_url);
+        });
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run(".lightbox-gallery");
+    </script>
+  </body>
+</html>

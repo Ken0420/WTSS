@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84.4 88.75">
+  <defs>
+    <linearGradient id="linear-gradient" x1="43.21" y1="63.5" x2="43.21" y2="0.23" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006ba2"/>
+      <stop offset="0.35" stop-color="#378ebe"/>
+      <stop offset="0.79" stop-color="#78b6de"/>
+      <stop offset="1" stop-color="#91c6eb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="95.24" y1="83.87" x2="31.97" y2="35.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f2171"/>
+      <stop offset="0.09" stop-color="#1c2c7b"/>
+      <stop offset="1" stop-color="#009ade"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="85.28" y1="31.72" x2="4.87" y2="10.34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#006ba2"/>
+      <stop offset="0.1" stop-color="#0971a6"/>
+      <stop offset="0.27" stop-color="#2281b1"/>
+      <stop offset="0.49" stop-color="#4a9ac3"/>
+      <stop offset="0.74" stop-color="#82bedc"/>
+      <stop offset="1" stop-color="#c4e8fa"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="65.51" y1="65.94" x2="72.12" y2="74.58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#007fc5"/>
+      <stop offset="0.46" stop-color="#7cbde1"/>
+      <stop offset="0.83" stop-color="#daecf7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="19.22" y1="35.21" x2="9.06" y2="25.05" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#008fd0"/>
+      <stop offset="0.46" stop-color="#7cc6e7"/>
+      <stop offset="0.83" stop-color="#daeff8"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="19.92" cy="30.22" r="56.77" gradientUnits="userSpaceOnUse">
+      <stop offset="0.01" stop-color="#fff"/>
+      <stop offset="0.28" stop-color="#fff"/>
+      <stop offset="1" stop-color="#24588d"/>
+    </radialGradient>
+  </defs>
+  <title>swimbizlogo-icon</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path d="M11,0A8.15,8.15,0,0,0,3.06,8.33V80.42a8.49,8.49,0,0,0,2.31,5.87A7.68,7.68,0,0,0,11,88.75H75.43a8.15,8.15,0,0,0,7.93-8.33V8.33A8.15,8.15,0,0,0,75.43,0Z" fill="url(#linear-gradient)"/>
+        <path d="M80.8,80.42a5.58,5.58,0,0,1-5.37,5.77H11a5.58,5.58,0,0,1-5.37-5.77V8.33A5.58,5.58,0,0,1,11,2.56H75.43A5.58,5.58,0,0,1,80.8,8.33Z" fill="url(#linear-gradient-2)"/>
+        <path d="M75.43,2.56H11A5.58,5.58,0,0,0,5.62,8.33V18.57c8,14,23.34,25.49,42.58,30a70.92,70.92,0,0,0,32.6,0V8.33A5.58,5.58,0,0,0,75.43,2.56Z" fill="url(#linear-gradient-3)"/>
+        <path d="M76.76,7v70a5.63,5.63,0,0,1-5.46,5.78H22a5,5,0,0,0,3.95,2H73.51a5.28,5.28,0,0,0,5.08-5.46V11.22A5.61,5.61,0,0,0,76.76,7Z" opacity="0.2" fill="url(#linear-gradient-4)"/>
+        <path d="M9.41,82.67v-70a5.62,5.62,0,0,1,5.46-5.77h33.2a4.93,4.93,0,0,0-4-2H12.66a5.28,5.28,0,0,0-5.08,5.45v68.2A5.61,5.61,0,0,0,9.41,82.67Z" opacity="0.47" fill="url(#linear-gradient-5)"/>
+        <path d="M12.65,47.9A31.46,31.46,0,1,1,44.11,79.35,31.46,31.46,0,0,1,12.65,47.9Z" opacity="0.24" fill="url(#radial-gradient)"/>
+        <g>
+          <path d="M41.12,57.78s6.22.29,9.73-2.17,7.62-8.47,12.1-8.55,4.72,1.95,7.79,1.76,2.36-2.73,6.75-3.63,4-5.72,6.76-6.16a20.13,20.13,0,0,0,.15-2.37c0-1.25-1.45-2.9-2.4-3.9s-5.15-3.33-7.88-2.61-3.64,1.37-5.52,4.63c0,0-1-.17-1.94,1.46s-1.79,2.84-1.79,2.84-3-1.76-5.52-2.87S56.74,33.75,52.76,33a51,51,0,0,0-14.64-.34c-4.25.51-7.41-1.27-10.1.69S18,40.34,13.19,47.94s-10.44,4.75-11,8.7S-.28,66.9,3.72,64.94s5.55-3.11,7.11-6.75,2.46-3,5.22-6,6.6-5,10.15-7.22,4.25-3.38,5.38-3.36,4.32.91,7.15,1.16,4.86.71,4.91,1.12S40.91,47.12,37.47,49,26,50.86,17.84,57.18c-7.7,5.94-5.78,4.06,1.08,1.09S31.31,55.65,41.12,57.78Z" fill="#fff"/>
+          <path d="M0,72.71A33.8,33.8,0,0,1,14.94,62.33c8.22-2.73,18.38-2,24-1s13.12.6,18.56-4.08c0,0-4.66,5.78-15.08,5.92-8.83.13-35.12-4.86-38.94,15.2C3.5,78.32.9,78.27,0,72.71Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

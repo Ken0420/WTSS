@@ -1,0 +1,1666 @@
+<!-- Static template export; replace [Template data: ...] values with live data. -->
+<!DOCTYPE html>
+<html lang="en" data-product="TennisBiz">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TennisBiz | Download</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <!-- Dynamic SEO metadata omitted from static export. -->
+    <!-- Dynamic favicon links omitted from static export. -->
+
+    <!-- web fonts CDN -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Tracking pixel omitted from static export. -->
+
+    <!-- flag cdn -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom styles -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../../../assets/css/base.css"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Google tag (gtag.js) -->
+
+    <script>
+      var cookieFunctions = {
+        setCookie: function (e, t, n) {
+          var a = "";
+          if (n) {
+            var o = new Date();
+            o.setTime(o.getTime() + 24 * n * 60 * 60 * 1e3),
+              (a = "; expires=" + o.toUTCString());
+          }
+          document.cookie = e + "=" + (t || "") + a + "; path=/";
+        },
+        getCookie: function (e) {
+          for (
+            var t = e + "=", n = document.cookie.split(";"), a = 0;
+            a < n.length;
+            a++
+          ) {
+            for (var o = n[a]; " " == o.charAt(0); )
+              o = o.substring(1, o.length);
+            if (0 == o.indexOf(t)) return o.substring(t.length, o.length);
+          }
+          return null;
+        },
+        eraseCookie: function (e) {
+          document.cookie = e + "=; Max-Age=-99999999;";
+        },
+      };
+      function getUrlVars() {
+        var e = {};
+        return (
+          window.location.href.replace(
+            /[?&]+([^=&]+)=([^&]*)/gi,
+            function (t, n, a) {
+              e[n] = a;
+            }
+          ),
+          e
+        );
+      }
+      function getUrlParam(e, t) {
+        var n = t;
+        return window.location.href.indexOf(e) > -1 && (n = getUrlVars()[e]), n;
+      }
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+      var campaign_variables = [
+        "utm_source",
+        "utm_medium",
+        "utm_campaign",
+        "utm_term",
+        "utm_content",
+      ];
+      campaign_variables.forEach(function (e, t, n) {
+        var a = getUrlParam(e, null);
+        null !== a && cookieFunctions.setCookie(e, escape(a), 7);
+      });
+    </script>
+
+    <script>
+      var exp_date = new Date();
+      exp_date.setDate(exp_date.getDate() + 7);
+    </script>
+  </head>
+  <body class="product-tennisbiz" data-product="TennisBiz">
+    <a id="top"></a>
+    <header>
+      <!-- nav start -->
+      <nav
+        class="navbar fixed-top navbar-default navbar-dark navbar-expand-lg nav-gradient p-lg-0"
+      >
+        <div class="container">
+          <div class="nav-top-bg bg-tb-dark"></div>
+          <a class="navbar-brand p-lg-0" href="home.html">
+            <div class="d-flex align-items-center">
+              <div class="icon-logo-style">
+                <img
+                  src="../../../../assets/img/tennisbiz/logo-icon-tennisbiz.svg"
+                  class="img-fluid logo-icon-svg-shadow"
+                  alt="TennisBiz"
+                />
+              </div>
+              <div
+                class="h4 font-weight-normal text-shadow ml-1 pl-1 pl-1 pt-2"
+              >
+                Tennis<strong>Biz</strong>
+              </div>
+            </div>
+          </a>
+
+          <!-- trial button in tablet mode only start -->
+          <div class="d-none d-md-block d-lg-none ml-md-auto pr-md-3">
+            <a
+              class="btn-success btn text-center text-white"
+              href="sign_up.html"
+              >Free Trial</a
+            >
+          </div>
+          <!-- trial button in tablet mode end -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-lg-2">
+              <li class="nav-item pt-lg-4 pb-lg-4 border-bottom-sm-md">
+                <a class="nav-link text-white" href="home.html"
+                  >Overview <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="features.html">Features</a>
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a class="nav-link text-white" href="download.html">Download</a>
+              </li>
+
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../../shared_pages/blog.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item pt-lg-4 border-bottom-sm-md pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../../shared_pages/about_us.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item pt-lg-4 pb-lg-4">
+                <a
+                  class="nav-link text-white"
+                  href="../../shared_pages/contact_us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+
+            <a
+              class="btn-success btn d-none d-lg-inline-block mb-1 mb-md-0 ml-md-1 text-white"
+              href="sign_up.html"
+              >Free Trial</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- nav end -->
+    </header>
+
+    <div class="middle-content">
+      <!-- start of middle content -->
+      <!-- this is the hero image -->
+      <section class="hero-container overflow-hidden">
+        <section class="tb-gradient"></section>
+        <!-- hero-gradient-dark start -->
+        <div class="hero-gradient-background d-none d-lg-block"></div>
+        <!-- hero-gradient-dark end -->
+        <!-- angled shape containers start -->
+        <div class="shape-backgrounds-container">
+          <div class="shape-graphic-container-left">
+            <div class="shape-graphic-left-side-a"></div>
+            <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+            <div
+              class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+            ></div>
+            <div class="shape-graphic-left-side-a-last d-none d-xl-block"></div>
+          </div>
+          <div class="shape-right mr-sm-n5 mr-md-0">
+            <div class="shape-graphic-left-side-a"></div>
+            <div class="shape-graphic-left-side-a1 d-none d-xl-block"></div>
+            <div
+              class="shape-graphic-left-side-a-extra-color-bar d-none d-xl-block"
+            ></div>
+            <div class="shape-graphic-left-side-a-last d-none d-xl-block"></div>
+          </div>
+        </div>
+        <!-- angled-shaped-containers end -->
+        <div class="container pt-md-1 pt-lg-3 pt-xl-5">
+          <div class="row pt-md-5">
+            <div class="col-md-6 pt-md-1">
+              <div class="text-white pt-5 pt-md-4 pt-lg-0 pt-xl-0">
+                <div class="pt-5 pt-xl-4">
+                  <div class="pl-5">
+                    <img
+                      src="../../../../assets/img/generic-download-page-hero-image.png"
+                      class="w-75 d-md-none"
+                    />
+                  </div>
+                  <h3 class="font-weight-light text-white pt-md-3 pt-lg-3">
+                    Download
+                  </h3>
+                  <p class="pb-lg-3 pb-xl-5 mb-md-0 mb-lg-3">
+                    Download
+                    <span id="biz-product-name-change"
+                      ><span class="tb-content"> TennisBiz </span>
+                    </span>
+                    and install it directly to your PC or Mac.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 pt-md-5 d-lg-none">
+              <img
+                src="../../../../assets/img/generic-download-page-hero-image.png"
+                class="img-fluid d-none d-md-block pt-md-3 mb-md-3 d-lg-none"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- dividers -->
+      <div class="bg-tb-secondary pt-2 pb-1"></div>
+
+      <section
+        class="d-none d-lg-block bg-light pt-3 pb-3 mb-3 mb-md-4 mb-lg-4"
+      >
+        <div class="container pb-1">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <span class="mr-2">Are you a new customer?</span>
+              <a class="btn-success btn text-white" href="sign_up.html"
+                >Start Your Free Trial <i class="fas fa-caret-right pl-2"></i
+              ></a>
+            </div>
+            <div class="d-none d-lg-block col-lg-6">
+              <img
+                src="../../../../assets/img/generic-download-page-hero-image.png"
+                class="download-hero-image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- this is the end of the hero image -->
+
+      <!-- this is the section for all -->
+      <section class="mb-3 mb-md-4 mb-lg-5">
+        <a id="top"></a>
+
+        <h5 class="text-center pt-3 pb-3 pt-lg-2 pb-lg-4 text-tb-primary">
+          Please select your operating system
+        </h5>
+
+        <!-- container for all 4 items -->
+        <div class="container downloads-container p-sm-0">
+          <!-- container for windows and mac downloads -->
+          <div class="row justify-content-md-between">
+            <!-- windows -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 pr-xl-5">
+              <div
+                id="accordion"
+                class="card"
+                role="tablist"
+                aria-multiselectable="true"
+              >
+                <div class="container border-bottom">
+                  <!-- heading with icons start -->
+                  <div
+                    class="row pt-3 pb-3 justify-content-center border-bottom"
+                  >
+                    <div
+                      class="col-3 col-md-2 col-lg-3 align-self-sm-center text-sm-center"
+                    >
+                      <img
+                        src="../../../../assets/img/logo-windows.svg"
+                        class="icon-logo-style-download mb-3 mb-sm-0 pr-xl-0 pl-xl-3"
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-sm-8 col-md-10 col-lg-8 col-lg-9 align-self-center text-center"
+                    >
+                      <a
+                        class="text-white text-center btn btn-tb-primary button-shadow border-0"
+                        href="[Template data: template_slots.pc_download_link]"
+                      >
+                        <i class="fas fa-arrow-circle-down pr-2"></i>Download
+                        TennisBiz for PC</a
+                      >
+                    </div>
+                  </div>
+                  <!-- heading with icons end -->
+                  <div class="card-header border-0 bg-white m-0">
+                    <p class="mb-0 text-center">
+                      Windows Installation Instructions
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card border-0">
+                  <div
+                    class="card-header border-0 bg-transparent"
+                    role="tab"
+                    id="headingOne"
+                  >
+                    <div class="accordion-arrow mb-0">
+                      <a
+                        class="text-reset d-block"
+                        data-toggle="collapse"
+                        href="#collapseOne"
+                        aria-expanded="false"
+                        aria-controls="collapseOne"
+                      >
+                        View installation instructions.
+                      </a>
+                    </div>
+                  </div>
+
+                  <div
+                    id="collapseOne"
+                    class="collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingOne"
+                  >
+                    <div class="card-body border-top">
+                      <ol class="pl-3 mb-0">
+                        <li>
+                          <a
+                            class="text-tb-primary"
+                            target="_blank"
+                            href="[Template data: template_slots.pc_download_link]"
+                            >Click here</a
+                          >
+                          to download the file to your computer (20 MB).
+                        </li>
+                        <li>
+                          Open the downloaded file and make sure you allow the
+                          software to run if security question is asked.
+                        </li>
+                        <li>
+                          If computer asks if you want to let this program make
+                          changes click Yes.
+                        </li>
+                        <li>
+                          Run through the setup wizard and install the software.
+                        </li>
+                        <li>Click Finish to complete the installation.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="m-0 p-0" />
+
+                <div class="card border-0">
+                  <div
+                    class="card-header border-0 bg-white"
+                    role="tab"
+                    id="headingTwo"
+                  >
+                    <div class="accordion-arrow mb-0">
+                      <a
+                        class="collapsed text-reset d-block"
+                        data-toggle="collapse"
+                        href="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        View uninstallation instructions.
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    class="collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingTwo"
+                  >
+                    <div class="card-body border-top">
+                      <ol class="pl-3 mb-0">
+                        <li>Go to the control panel.</li>
+                        <li>Open Programs &amp; Features.</li>
+                        <li>
+                          Select the software you wish to uninstall and press
+                          'Uninstall'.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <hr class="m-0 p-0" />
+                <div class="card border-0">
+                  <div
+                    class="card-header rounded-bottom border-0 bg-white"
+                    role="tab"
+                    id="headingThree"
+                  >
+                    <a
+                      class="d-block pointer text-reset w-100 pl-0 mb-0 mt-0 pt-0 pb-0 pr-0 text-left"
+                      href="../../thinksmart_pages/agreements.html"
+                      target="_blank"
+                      role="button"
+                    >
+                      Read our terms of service agreements.
+                      <i
+                        class="pointer fa fa-external-link-alt float-right pt-1 opacity-2"
+                      ></i>
+                    </a>
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="terms-of-service"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="terms-of-serviceTitle"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-centered modal-lg downloads-modal"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">
+                              Terms of Service (AU)
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="">
+                              <h5>Account Setup / Email on file</h5>
+                              <p>
+                                It is your responsibility to provide us with a
+                                correct email to which you are signing up under.
+                                If there is ever an abuse issue or ThinkSmart
+                                Software Pty Ltd needs to contact you, the
+                                primary email address on file will be used for
+                                this purpose. It is your responsibility to
+                                ensure the email address on file is current or
+                                up to date at all times. Providing false contact
+                                information of any kind may result in the
+                                termination of your account. In dedicated server
+                                purchases or high risk transactions, it will be
+                                necessary to provide government issued
+                                identification and possibly a scan of the credit
+                                card used for the purchase. If you fail to meet
+                                these requirements, the order may be considered
+                                fraudulent in nature and be denied.
+                              </p>
+                              <h5>Content</h5>
+
+                              <p>
+                                All services provided by ThinkSmart Software Pty
+                                Ltd may only be used for lawful purposes. The
+                                laws of the State of Victoria and Australia
+                                apply.
+                              </p>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to refuse service. Any material that, in our
+                                judgment, is obscene or threatening is
+                                prohibited and will be removed from our servers
+                                with or without notice.
+                              </p>
+                              <p>
+                                Violations will be reported to the appropriate
+                                law enforcement agency.
+                              </p>
+                              <p>
+                                Users are responsible for all actions taken
+                                under their account. This includes the
+                                compromise of credentials such as username and
+                                password. It is required that you use a secure
+                                password. If a weak password is used, your
+                                account may be suspended until you agree to use
+                                a more secure password. Audits may be done to
+                                prevent weak passwords from being used. If an
+                                audit is performed, and your password is found
+                                to be weak, we will notify you and allow time
+                                for you to change/update your password.
+                              </p>
+                              <h5>Privacy</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to collect customer's personal and company
+                                information for the use within the software.
+                                ThinkSmart Software Pty Ltd does not share or
+                                sell customer information with any other
+                                sources.
+                              </p>
+                              <h5>Spam Policy</h5>
+                              <p>
+                                We take a zero tolerance stance against sending
+                                of unsolicited e-mail, bulk emailing, and spam.
+                                Any user who sends out spam will have their
+                                account terminated with or without notice.
+                              </p>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to require changes or disable as necessary any
+                                account, database, or other component that does
+                                not comply with its established policies, or to
+                                make any such modifications in an emergency at
+                                its sole discretion.
+                              </p>
+                              <h5>Payment Information</h5>
+                              <p>
+                                You agree to supply appropriate payment for the
+                                services received from ThinkSmart Software Pty
+                                Ltd in advance of the time period during which
+                                such services are provided. You agree that until
+                                and unless you notify ThinkSmart Software Pty
+                                Ltd of your desire to cancel any or all services
+                                received, those services will be billed on a
+                                recurring basis.
+                              </p>
+                              <p>
+                                Cancellation requests must be provided at least
+                                five days in advance of the start of a new
+                                billing period (first of the month) by telephone
+                                or in writing (email from the primary account
+                                holder). ThinkSmart Software Pty Ltd does not
+                                take on responsibility if we have not received
+                                any cancellation notification.
+                              </p>
+                              <p>
+                                Cancellations received after the 1st of the
+                                month will be honoured for the next billing
+                                period.
+                              </p>
+                              <p>
+                                Cancelled accounts will remain active until the
+                                start of the next billing period (1st of next
+                                month) following the date of your cancellation.
+                              </p>
+                              <p>
+                                Data from a cancelled account may be deleted
+                                from the database within thirty-days after
+                                cancellation. ThinkSmart Software Pty Ltd does
+                                not guarantee any extended data storage beyond
+                                that time
+                              </p>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to change the monthly payment amount and any
+                                other charges at any time.
+                              </p>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to cancel the account at any time with or
+                                without notice.
+                              </p>
+                              <h5>Data Loss and Uptime Guarantee</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd accepts no liability
+                                for any data loss, server error or downtime.
+                              </p>
+                              <h5>Refunds</h5>
+                              <p>
+                                Due to ThinkSmart Software Pty Ltd software
+                                delivery model no refunds will be required or
+                                provided.
+                              </p>
+                              <p>
+                                Any abuse of our staff in any medium or format
+                                will result in the suspension or termination of
+                                your services.
+                              </p>
+                              <h5>Price Change</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to change prices, at any time without notice.
+                              </p>
+                              <h5>Indemnification</h5>
+                              <p>
+                                Customer agrees that it shall defend, indemnify,
+                                save and hold ThinkSmart Software Pty Ltd
+                                harmless from any and all demands, liabilities,
+                                losses, costs and claims, including reasonable
+                                attorney's fees asserted against ThinkSmart
+                                Software Pty Ltd, its agents, its customers,
+                                officers and employees, that may arise or result
+                                from any service provided or performed or agreed
+                                to be performed or any product sold by customer,
+                                its agents, employees or assigns. Customer
+                                agrees to defend, indemnify and hold harmless
+                                ThinkSmart Software Pty Ltd against liabilities
+                                arising out of; (1) any injury to person or
+                                property caused by any products sold or
+                                otherwise distributed in connection with
+                                ThinkSmart Software Pty Ltd (2) any material
+                                supplied by customer infringing or allegedly
+                                infringing on the proprietary rights of a third
+                                party; (3) copyright infringement and (4) any
+                                defective products sold to customers from
+                                ThinkSmart Software Pty Ltd’s server.
+                              </p>
+                              <h5>Licensing Agreement</h5>
+                              <p>
+                                All ThinkSmart Software Pty Ltd’s products are
+                                licensed in the name of the primary account
+                                holder only. ThinkSmart Software does not sell
+                                or provide licences to any entity other than the
+                                licensee’s personal name; this includes
+                                registered business names, companies and trusts.
+                                This licence is not transferrable. The licence
+                                to ThinkSmart Software Pty Ltd’s products cannot
+                                be on sold from a current licensee without prior
+                                consent from ThinkSmart Software Pty Ltd. If
+                                these terms are breached ThinkSmart Software
+                                reserves the right to cancel this license.
+                                Please Note: Cancellation fees may apply.
+                              </p>
+                              <h5>Arbitration</h5>
+                              <p>
+                                By using any ThinkSmart Software Pty Ltd
+                                services, you agree to binding arbitration. If
+                                any disputes or claims arise against ThinkSmart
+                                Software Pty Ltd or its subsidiaries, such
+                                disputes will be handled by an arbitrator
+                                ThinkSmart Software Pty Ltd’s choice. All
+                                decisions rendered by that arbitrator will be
+                                binding and final. You are also responsible for
+                                any and all costs related to such arbitration.
+                              </p>
+                              <h5>Disclaimer</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd shall not be
+                                responsible for any damages your business may
+                                suffer. ThinkSmart Software Pty Ltd makes no
+                                warranties of any kind, expressed or implied for
+                                services we provide. ThinkSmart Software Pty Ltd
+                                disclaims any warranty or merchantability or
+                                fitness for a particular purpose. This includes
+                                loss of data resulting from delays, no
+                                deliveries, wrong delivery, and any and all
+                                service interruptions caused by ThinkSmart
+                                Software Pty Ltd and its employees.
+                              </p>
+                              <h5>Disclosure to Law Enforcement</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd may disclose any
+                                subscriber information to law enforcement
+                                agencies without further consent or notification
+                                to the subscriber upon lawful request from such
+                                agencies. We will cooperate fully with law
+                                enforcement agencies.
+                              </p>
+                              <h5>Changes to the Terms Of Service</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to revise its policies at any time without
+                                notice.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-outline-primary"
+                              data-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                            <button
+                              type="button"
+                              class="d-none btn btn-primary"
+                            >
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of modal -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- mac -->
+            <div class="col-12 mt-4 mt-md-0 col-md-6 col-lg-6 col-xl-6 pr-xl-5">
+              <div
+                id="accordion"
+                class="card"
+                role="tablist"
+                aria-multiselectable="true"
+              >
+                <div class="container border-bottom">
+                  <!-- heading with icons start -->
+                  <div
+                    class="row pt-3 pb-3 justify-content-center border-bottom"
+                  >
+                    <div
+                      class="col-3 col-md-2 col-lg-3 align-self-sm-center text-sm-center"
+                    >
+                      <img
+                        src="../../../../assets/img/logo-mac-darker.svg"
+                        class="icon-logo-style-download mb-3 mb-sm-0 pr-xl-0 pl-xl-3"
+                      />
+                    </div>
+                    <div
+                      class="col-12 col-sm-8 col-md-10 col-lg-8 col-lg-9 align-self-center text-center"
+                    >
+                      <a
+                        class="text-white text-center btn btn-tb-primary button-shadow border-0"
+                        href="[Template data: template_slots.mac_download_link]"
+                      >
+                        <i class="fas fa-arrow-circle-down pr-2"></i>Download
+                        TennisBiz for Mac</a
+                      >
+                    </div>
+                  </div>
+                  <!-- heading with icons end -->
+
+                  <div class="card-header border-0 bg-white m-0" id="">
+                    <p class="mb-0 text-center">
+                      Mac Installation Instructions
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card border-0">
+                  <div
+                    class="card-header border-0 bg-white"
+                    role="tab"
+                    id="headingThree"
+                  >
+                    <div class="accordion-arrow mb-0">
+                      <a
+                        class="text-reset d-block"
+                        data-toggle="collapse"
+                        href="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        View installation instructions.
+                      </a>
+                    </div>
+                  </div>
+
+                  <div
+                    id="collapseThree"
+                    class="collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingThree"
+                  >
+                    <div class="card-body border-top">
+                      <ol class="pl-3 mb-0">
+                        <li>
+                          <a
+                            class="text-tb-primary"
+                            target="_blank"
+                            href="[Template data: template_slots.mac_download_link]"
+                            >Click here</a
+                          >
+                          to download the installation file (32 MB).
+                        </li>
+                        <li>
+                          Once the download is complete, open the pkg file.
+                        </li>
+                        <li>
+                          Follow the instructions by dragging the application
+                          into the applications folder.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="m-0 p-0" />
+
+                <div class="card border-0">
+                  <div
+                    class="card-header border-0 bg-white"
+                    role="tab"
+                    id="headingFour"
+                  >
+                    <div class="accordion-arrow mb-0">
+                      <a
+                        class="collapsed text-reset d-block"
+                        data-toggle="collapse"
+                        href="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        View uninstallation instructions.
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    id="collapseFour"
+                    class="collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingFour"
+                  >
+                    <div class="card-body border-top">
+                      <ol class="pl-3 mb-0">
+                        <li>Move the application to the trash can.</li>
+                        <li>Empty the trash can.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="m-0 p-0" />
+
+                <div class="card border-0">
+                  <div
+                    class="card-header rounded-bottom border-0 bg-white"
+                    role="tab"
+                    id="headingThree"
+                  >
+                    <a
+                      class="d-block pointer text-reset w-100 pl-0 mb-0 mt-0 pt-0 pb-0 pr-0 text-left"
+                      href="../../thinksmart_pages/agreements.html"
+                      target="_blank"
+                      role="button"
+                    >
+                      Read our terms of service agreements.
+                      <i
+                        class="pointer fa fa-external-link-alt float-right pt-1 opacity-2"
+                      ></i>
+                    </a>
+
+                    <!-- <a class="d-block pointer text-reset w-100 pl-0 mb-0 mt-0 pt-0 pb-0 pr-0 text-left" role="button" data-toggle="modal" data-target="#terms-of-service">
+                                    Read our terms of service (EULA).
+                                    <i class="pointer fa fa-external-link-alt float-right pt-1 opacity-2"></i>
+                                </a> -->
+                    <!-- Button trigger modal -->
+
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="terms-of-service"
+                      tabindex="-1"
+                      role="dialog"
+                      aria-labelledby="terms-of-serviceTitle"
+                      aria-hidden="true"
+                    >
+                      <div
+                        class="modal-dialog modal-dialog-centered modal-lg downloads-modal"
+                        role="document"
+                      >
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">
+                              Terms of Service (AU)
+                            </h5>
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="modal"
+                              aria-label="Close"
+                            >
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="">
+                              <h5>Account Setup / Email on file</h5>
+                              <p>
+                                It is your responsibility to provide us with a
+                                correct email to which you are signing up under.
+                                If there is ever an abuse issue or ThinkSmart
+                                Software Pty Ltd needs to contact you, the
+                                primary email address on file will be used for
+                                this purpose. It is your responsibility to
+                                ensure the email address on file is current or
+                                up to date at all times. Providing false contact
+                                information of any kind may result in the
+                                termination of your account. In dedicated server
+                                purchases or high risk transactions, it will be
+                                necessary to provide government issued
+                                identification and possibly a scan of the credit
+                                card used for the purchase. If you fail to meet
+                                these requirements, the order may be considered
+                                fraudulent in nature and be denied.
+                              </p>
+                              <h5>Content</h5>
+                              <p>
+                                All services provided by ThinkSmart Software Pty
+                                Ltd may only be used for lawful purposes. The
+                                laws of the State of Victoria and Australia
+                                apply.
+                              </p>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to refuse service. Any material that, in our
+                                judgment, is obscene or threatening is
+                                prohibited and will be removed from our servers
+                                with or without notice.
+                              </p>
+                              <p>
+                                Violations will be reported to the appropriate
+                                law enforcement agency.
+                              </p>
+                              <p>
+                                Users are responsible for all actions taken
+                                under their account. This includes the
+                                compromise of credentials such as username and
+                                password. It is required that you use a secure
+                                password. If a weak password is used, your
+                                account may be suspended until you agree to use
+                                a more secure password. Audits may be done to
+                                prevent weak passwords from being used. If an
+                                audit is performed, and your password is found
+                                to be weak, we will notify you and allow time
+                                for you to change/update your password.
+                              </p>
+                              <h5>Privacy</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to collect customer's personal and company
+                                information for the use within the software.
+                                ThinkSmart Software Pty Ltd does not share or
+                                sell customer information with any other
+                                sources.
+                              </p>
+                              <h5>Spam Policy</h5>
+                              <p>
+                                We take a zero tolerance stance against sending
+                                of unsolicited e-mail, bulk emailing, and spam.
+                                Any user who sends out spam will have their
+                                account terminated with or without notice.
+                              </p>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to require changes or disable as necessary any
+                                account, database, or other component that does
+                                not comply with its established policies, or to
+                                make any such modifications in an emergency at
+                                its sole discretion.
+                              </p>
+                              <h5>Payment Information</h5>
+                              <p>
+                                You agree to supply appropriate payment for the
+                                services received from ThinkSmart Software Pty
+                                Ltd in advance of the time period during which
+                                such services are provided. You agree that until
+                                and unless you notify ThinkSmart Software Pty
+                                Ltd of your desire to cancel any or all services
+                                received, those services will be billed on a
+                                recurring basis.
+                              </p>
+                              <p>
+                                Cancellation requests must be provided at least
+                                five days in advance of the start of a new
+                                billing period (first of the month) by telephone
+                                or in writing (email from the primary account
+                                holder). ThinkSmart Software Pty Ltd does not
+                                take on responsibility if we have not received
+                                any cancellation notification.
+                              </p>
+                              <p>
+                                Cancellations received after the 1st of the
+                                month will be honoured for the next billing
+                                period.
+                              </p>
+                              <p>
+                                Cancelled accounts will remain active until the
+                                start of the next billing period (1st of next
+                                month) following the date of your cancellation.
+                              </p>
+                              <p>
+                                Data from a cancelled account may be deleted
+                                from the database within thirty-days after
+                                cancellation. ThinkSmart Software Pty Ltd does
+                                not guarantee any extended data storage beyond
+                                that time
+                              </p>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to change the monthly payment amount and any
+                                other charges at any time.
+                              </p>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to cancel the account at any time with or
+                                without notice.
+                              </p>
+                              <h5>Data Loss and Uptime Guarantee</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd accepts no liability
+                                for any data loss, server error or downtime.
+                              </p>
+                              <h5>Refunds</h5>
+                              <p>
+                                Due to ThinkSmart Software Pty Ltd software
+                                delivery model no refunds will be required or
+                                provided.
+                              </p>
+                              <p>
+                                Any abuse of our staff in any medium or format
+                                will result in the suspension or termination of
+                                your services.
+                              </p>
+                              <h5>Price Change</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to change prices, at any time without notice.
+                              </p>
+                              <h5>Indemnification</h5>
+                              <p>
+                                Customer agrees that it shall defend, indemnify,
+                                save and hold ThinkSmart Software Pty Ltd
+                                harmless from any and all demands, liabilities,
+                                losses, costs and claims, including reasonable
+                                attorney's fees asserted against ThinkSmart
+                                Software Pty Ltd, its agents, its customers,
+                                officers and employees, that may arise or result
+                                from any service provided or performed or agreed
+                                to be performed or any product sold by customer,
+                                its agents, employees or assigns. Customer
+                                agrees to defend, indemnify and hold harmless
+                                ThinkSmart Software Pty Ltd against liabilities
+                                arising out of; (1) any injury to person or
+                                property caused by any products sold or
+                                otherwise distributed in connection with
+                                ThinkSmart Software Pty Ltd (2) any material
+                                supplied by customer infringing or allegedly
+                                infringing on the proprietary rights of a third
+                                party; (3) copyright infringement and (4) any
+                                defective products sold to customers from
+                                ThinkSmart Software Pty Ltd’s server.
+                              </p>
+                              <h5>Licensing Agreement</h5>
+                              <p>
+                                All ThinkSmart Software Pty Ltd’s products are
+                                licensed in the name of the primary account
+                                holder only. ThinkSmart Software does not sell
+                                or provide licences to any entity other than the
+                                licensee’s personal name; this includes
+                                registered business names, companies and trusts.
+                                This licence is not transferrable. The licence
+                                to ThinkSmart Software Pty Ltd’s products cannot
+                                be on sold from a current licensee without prior
+                                consent from ThinkSmart Software Pty Ltd. If
+                                these terms are breached ThinkSmart Software
+                                reserves the right to cancel this license.
+                                Please Note: Cancellation fees may apply.
+                              </p>
+                              <h5>Arbitration</h5>
+                              <p>
+                                By using any ThinkSmart Software Pty Ltd
+                                services, you agree to binding arbitration. If
+                                any disputes or claims arise against ThinkSmart
+                                Software Pty Ltd or its subsidiaries, such
+                                disputes will be handled by an arbitrator
+                                ThinkSmart Software Pty Ltd’s choice. All
+                                decisions rendered by that arbitrator will be
+                                binding and final. You are also responsible for
+                                any and all costs related to such arbitration.
+                              </p>
+                              <h5>Disclaimer</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd shall not be
+                                responsible for any damages your business may
+                                suffer. ThinkSmart Software Pty Ltd makes no
+                                warranties of any kind, expressed or implied for
+                                services we provide. ThinkSmart Software Pty Ltd
+                                disclaims any warranty or merchantability or
+                                fitness for a particular purpose. This includes
+                                loss of data resulting from delays, no
+                                deliveries, wrong delivery, and any and all
+                                service interruptions caused by ThinkSmart
+                                Software Pty Ltd and its employees.
+                              </p>
+                              <h5>Disclosure to Law Enforcement</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd may disclose any
+                                subscriber information to law enforcement
+                                agencies without further consent or notification
+                                to the subscriber upon lawful request from such
+                                agencies. We will cooperate fully with law
+                                enforcement agencies.
+                              </p>
+                              <h5>Changes to the Terms Of Service</h5>
+                              <p>
+                                ThinkSmart Software Pty Ltd reserves the right
+                                to revise its policies at any time without
+                                notice.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-outline-primary"
+                              data-dismiss="modal"
+                            >
+                              Close
+                            </button>
+                            <button
+                              type="button"
+                              class="d-none btn btn-primary"
+                            >
+                              Save changes
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- section other downloads -->
+        <h5
+          class="text-center pt-4 pt-lg-5 pt-xl-5 pb-md-3 pb-lg-4 text-tb-primary"
+        >
+          Other downloads
+        </h5>
+
+        <div class="container downloads-container p-sm-0">
+          <div class="row justify-content-md-between">
+            <!-- thinksmart portal download/s -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 pr-xl-5">
+              <div class="container">
+                <div
+                  class="row bg-light border download-picture-container justify-content-center"
+                >
+                  <div class="col-8">
+                    <div class="pt-3">
+                      <!-- <img src="../../../../assets/img/dancebiz/dancebiz-customer-portal-add-students-2-phones.png" class="img-fluid"> -->
+                      <img
+                        src="../../../../assets/img/tennisbiz/tennisbiz-customer-portal-add-students-2-phones.png"
+                        class="img-fluid"
+                        alt="tablet, desktop, smartphone"
+                      />
+                      <!-- <img src="../../../../assets/img/tennisbiz/tennisbiz-customer-portal-add-students-2-phones.png" class="img-fluid"> -->
+                      <!-- <img src="../../../../assets/img/swimbiz/swimbiz-customer-portal-add-students-2-phones.png" class="img-fluid"> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-2 pt-lg-3 pb-2 text-center">
+                ThinkSmart Customer Portal
+              </div>
+              <div class="text-center">
+                <a
+                  href="[Template data: template_slots.android_customer_portal_app_link]"
+                  target="_blank"
+                  ><img
+                    src="../../../../assets/img/badge-google-play.svg"
+                    class="google-play-badge mr-2"
+                /></a>
+                <a
+                  href="[Template data: template_slots.ios_customer_portal_app_link]"
+                  target="_blank"
+                  ><img
+                    src="../../../../assets/img/badge-app-store.svg"
+                    class="app-store-badge"
+                    target="_blank"
+                /></a>
+              </div>
+            </div>
+
+            <!-- smartphone app -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 pr-xl-5 mt-4 mt-md-0">
+              <div class="container">
+                <div
+                  class="row bg-light border download-picture-container justify-content-center"
+                >
+                  <div class="col-8">
+                    <img
+                      src="../../../../assets/img/generic-downloads-smartphone-app.png"
+                      class="pl-0 pt-3 position-absolute downloads-graphic"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="pt-2 pt-lg-3 pb-2 text-center">
+                TennisBiz Smartphone App
+              </div>
+              <div class="text-center">
+                <a
+                  href="[Template data: template_slots.android_staff_app_link]"
+                  target="_blank"
+                  ><img
+                    src="../../../../assets/img/badge-google-play.svg"
+                    class="google-play-badge mr-2"
+                /></a>
+                <a
+                  href="[Template data: template_slots.ios_staff_app_link]"
+                  target="_blank"
+                  ><img
+                    src="../../../../assets/img/badge-app-store.svg"
+                    class="app-store-badge"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container downloads-container p-sm-0">
+          <div class="row justify-content-md-between pt-4 pt-md-5">
+            <!-- Point of Sale -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 pr-xl-5">
+              <div class="container">
+                <div
+                  class="row bg-light border download-picture-container justify-content-center"
+                >
+                  <div class="col-7 col-sm-5 col-md-7 col-lg-6 col-xl-7">
+                    <img
+                      src="../../../../assets/img/generic-pos-point-of-sale-transparent.png"
+                      class="img-fluid p-3"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="pt-2 pt-lg-3 pb-2 text-center">
+                ThinkSmart POS (Point of Sale)
+              </div>
+
+              <div class="text-center">
+                <a
+                  href="[Template data: template_slots.pc_pos_download_link]"
+                  target="_blank"
+                  class="text-white text-center btn btn-tb-primary btn-sm pt-2 pb-2 text-white button-shadow"
+                >
+                  <i class="fas fa-arrow-circle-down pr-1" role="button"></i
+                  >Download for PC</a
+                >
+
+                <!-- mac link -->
+              </div>
+            </div>
+
+            <!-- ThinkSmart Check-in App -->
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6 pr-xl-5 mt-4 mt-md-0">
+              <div class="container">
+                <div
+                  class="row bg-light border download-picture-container justify-content-center"
+                >
+                  <div class="col-12 align-self-center">
+                    <div class="row justify-content-center">
+                      <div class="col-7 col-sm-5 col-md-7 col-lg-6 col-xl-7">
+                        <img
+                          src="../../../../assets/img/generic-downloads-thinksmart-checkin-app-screen-tablet.png"
+                          class="img-fluid p-lg-2 mt-2 mt-sm-0"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-2 pt-lg-3 pb-2 text-center">
+                ThinkSmart Check-In App (For Android 13 &amp; lower only)
+              </div>
+              <div class="text-center">
+                <a
+                  href="[Template data: template_slots.android_checkin_app_link]"
+                  target="_blank"
+                  ><img
+                    src="../../../../assets/img/badge-download-for-android.svg"
+                    class="google-play-badge"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- end of middle content -->
+    <div class="mt-4 mt-lg-5 pt-lg-2"></div>
+    <div class="bg-tb-secondary pt-1 pb-2"></div>
+    <!-- footer start -->
+    <section class="d-block position-relative pb-5 pb-md-0 mb-md-0">
+      <div class="tb-gradient gradient-inset-shadow-deep-footer"></div>
+      <footer class="text-white pt-1 pb-3">
+        <!-- container for company logo, contact details and social media links start -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <!-- company info / logo -->
+            <div class="col-12 col-md-4 col-lg-3 col-xl-4">
+              <div
+                class="d-flex align-items-center justify-content-center justify-content-md-start mt-3"
+              >
+                <div class="icon-logo-style-footer">
+                  <img
+                    src="../../../../assets/img/tennisbiz/logo-icon-tennisbiz.svg"
+                    class="img-fluid generic-svg-shadow-footer"
+                    alt="TennisBiz"
+                  />
+                </div>
+                <div
+                  class="h4 font-weight-normal text-shadow ml-1 pl-1 pl-1 pt-2"
+                >
+                  Tennis<strong>Biz</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- company contact / get in touch with us start -->
+            <div
+              class="mt-4 mt-md-3 mt-lg-3 col-8 col-sm-8 col-md-8 col-lg-6 col-xl-6 pl-lg-3 pl-xl-4"
+            >
+              <span class="text-center text-md-left text-shadow">
+                <h5 class="text-tb-secondary">Get in touch with us</h5>
+              </span>
+
+              <div class="row">
+                <!-- sales -->
+                <div class="pl-sm-4 pl-md-3 col-12 mt-2 mb-lg-2">
+                  <div class="row align-items-center">
+                    <!-- call -->
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-au h5 m-0"></div>
+                        <div class="pl-2">AUS</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- australia number -->
+                      <span class="text-white ml-xl-n2">61 3 9018 9594 </span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-gb h5 m-0 p-0"></div>
+                        <div class="pl-2 pr-2">UK</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- uk number -->
+                      <span class="text-white ml-xl-n2">01483 422 080</span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="pl-sm-5 pl-md-3 col-auto col-lg-2 pr-0">
+                      <div class="d-flex align-items-center">
+                        <div class="flag-icon flag-icon-ae h5 m-0 p-0"></div>
+                        <div class="pl-2 pr-2">UAE</div>
+                      </div>
+                    </div>
+                    <div class="col-auto text-left">
+                      <!-- uae number -->
+                      <span class="text-white ml-xl-n2">971 585 19 0406</span>
+                    </div>
+                    <div class="col-12 col-md-9 pl-xl-0 pl-0 pl-sm-3 pl-md-0">
+                      <div class="w-100 col-xl-10">
+                        <hr class="mt-2 mb-2 opacity-3" />
+                      </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <!-- contact us via our online form -->
+                    <div class="pl-sm-5 pl-md-3 col-auto pr-0">
+                      <div class="text-center">
+                        <i class="fas fa-edit fa-lg pl-1"></i>
+                      </div>
+                    </div>
+                    <div class="col-9 text-left pl-2">
+                      Or contact us via our
+                      <a
+                        href="../../shared_pages/contact_us.html"
+                        class="text-white font-weight-bold"
+                        >online form</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- company contact / get in touch with us end -->
+
+            <!-- stay updated, social media start -->
+            <div
+              class="mt-4 mt-md-3 mt-lg-3 col-12 col-md-4 col-lg-2 col-xl-2 pl-lg-0 pl-xl-3"
+            >
+              <div class="pl-xl-4">
+                <span class="text-center text-md-left text-shadow">
+                  <h5 class="text-tb-secondary">Stay updated</h5>
+                </span>
+
+                <div
+                  class="text-center text-md-left pt-lg-1 pt-xl-2 text-xl-left"
+                >
+                  <a
+                    href="https://www.facebook.com/ThinkSmartSoftware"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="Facebook"
+                    class="h4"
+                    ><i class="fa-brands fa-facebook-square text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/thinksmart_software/"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="Instagram"
+                    class="h4"
+                    ><i class="fa-brands fa-instagram text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://au.linkedin.com/company/thinksmart-software"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="LinkedIn"
+                    class="h4"
+                    ><i class="fa-brands fa-linkedin text-white pr-2"></i
+                  ></a>
+                  <a
+                    href="https://www.twitter.com/tweetthinksmart"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    title="X"
+                    class="h4"
+                    ><i
+                      class="fa-brands fa-square-x-twitter text-white pr-2"
+                    ></i
+                  ></a>
+
+                  <!-- back to top start -->
+                  <!-- <div class="text-center text-md-left text-xl-left pt-xl-2">
+                                <small><a href="#top" class="text-white"><i class="fas fa-caret-up pr-1"></i>Back to top</a></small>
+                            </div> -->
+                  <!-- back to top end -->
+
+                  <!-- <div id="footer-country-selector" class="d-none pt-4 pt-md-0 pt-lg-4 mt-1">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="text-white dropdown-toggle text-reset" href="" id="dropdown-country" data-toggle="dropdown"
+                                           aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-au"></span> AU</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown-country">
+                                            <a class="dropdown-item" href="#gb"><span class="flag-icon flag-icon-gb"></span> UK</a>
+                                            <a class="dropdown-item" href="#au"><span class="flag-icon flag-icon-us"></span> USA</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- stay updated, social media end -->
+          </div>
+        </div>
+      </footer>
+
+      <!-- bottom footer menu -->
+      <footer class="position-relative">
+        <div
+          class="bg-tb-dark dark-strip-footer d-none d-md-block nav-gradient-footer-bottom-strip"
+        ></div>
+        <div class="position-relative">
+          <ul class="nav justify-content-center pt-2 position-relative">
+            <li>
+              <a class="text-white" href="home.html">Overview</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li>
+              <a class="text-white" href="features.html">Features</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="pricing.html">Pricing</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="download.html">Download</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li>
+              <a class="text-white" href="../../shared_pages/blog.html">Blog</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="../../shared_pages/about_us.html"
+                >About Us</a
+              ><span class="text-white p-2">|</span>
+            </li>
+            <li>
+              <a class="text-white" href="../../shared_pages/contact_us.html"
+                >Contact Us</a
+              ><span class="text-white p-2">|</span>
+            </li>
+
+            <li><a class="text-white" href="sign_up.html">Free Trial</a></li>
+
+            <!-- additional menu item no content yet start -->
+            <li class="d-none">
+              <span class="text-white d-inline pl-2 pr-0">|</span>
+              <div class="footer-dropdown-item dropup d-inline-flex">
+                <a
+                  class="dropdown-toggle border-0 pt-0 pb-0 pl-1 text-white"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a
+                    class="dropdown-item"
+                    href="../../shared_pages/partners.html"
+                    >Partners</a
+                  >
+                  <a
+                    class="dropdown-item"
+                    href="../../shared_pages/franchising.html"
+                    >Franchising</a
+                  >
+                </div>
+              </div>
+            </li>
+            <!-- additional menu item no content yet end -->
+          </ul>
+          <div class="text-center text-white pt-2 pt-sm-1 pt-md-1 pb-4 pb-md-2">
+            <small>
+              <span class="d-block d-sm-inline"
+                >© <span class="current_year"></span>
+                <a href="../../thinksmart_pages/home.html" class="text-white"
+                  >ThinkSmart Software Pty Ltd</a
+                >
+                -
+              </span>
+              <!-- au privacy policy -->
+              <a
+                class="text-white"
+                target="_blank"
+                href="../../thinksmart_pages/agreements.html"
+                >Privacy Policy</a
+              >
+              <!-- uk privacy policy -->
+              <!-- <a class="text-white" target="_blank" href="https://www.thinksmartsoftware.com/en-gb/privacy-policy.html">Privacy Policy</a> -->
+              <!-- usa privacy policy -->
+              <!-- <a class="text-white" target="_blank" href="https://www.thinksmartsoftware.com/en-us/privacy-policy.html">Privacy Policy</a> -->
+            </small>
+          </div>
+        </div>
+      </footer>
+
+      <!-- end of bottom navigation -->
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        var d = new Date();
+        var y = d.getFullYear();
+        $(".current_year").empty().append(y);
+
+        var get_user_country_code = "";
+        if (!cookieFunctions.getCookie("country")) {
+          get_user_country_code = "AU";
+          get_user_country_code = get_user_country_code.toLowerCase();
+
+          cookieFunctions.setCookie("country", get_user_country_code);
+        } else {
+          get_user_country_code = cookieFunctions.getCookie("country");
+        }
+
+        $("#contact-" + get_user_country_code + "-button").click();
+
+        var get_user_country_name = "";
+        if (!cookieFunctions.getCookie("country_name")) {
+          get_user_country_name = "Australia";
+
+          cookieFunctions.setCookie("country_name", get_user_country_name);
+        } else {
+          get_user_country_name = cookieFunctions.getCookie("country_name");
+        }
+
+        $("[name=country], [name=Country]").val(get_user_country_name);
+
+        $(".learn-more-button").click(function (e) {
+          e.preventDefault();
+          const cc_url = "https://clearcourse.liberis.com/";
+          window.open(cc_url);
+        });
+      });
+    </script>
+  </body>
+</html>

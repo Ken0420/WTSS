@@ -1,0 +1,196 @@
+%!Adobe-FontList 1.19
+%Locale:0xc09
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\ThinkSmart-Graphics\TS-1453-ClassBiz-Trifold-for-Whats-On-4-Kids\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:235436
+FileModTime:1188191317
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Bold
+FamilyName:Open Sans
+StyleName:Bold
+FullName:Open Sans Bold
+MenuName:Open Sans
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\ThinkSmart-Graphics\TS-1453-ClassBiz-Trifold-for-Whats-On-4-Kids\Document fonts\OpenSans-Bold_0.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:224452
+FileModTime:1296561600
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Open Sans Bold
+NameArray:0,Win,1,Open Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Regular
+FamilyName:Open Sans
+StyleName:Regular
+FullName:Open Sans Regular
+MenuName:Open Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\ThinkSmart-Graphics\TS-1453-ClassBiz-Trifold-for-Whats-On-4-Kids\Document fonts\OpenSans-Regular_0.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:217276
+FileModTime:1296561600
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Open Sans Regular
+NameArray:0,Win,1,Open Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-BoldItalic
+FamilyName:Roboto
+StyleName:Bold Italic
+FullName:Roboto Bold Italic
+MenuName:Roboto
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\ThinkSmart-Graphics\TS-1453-ClassBiz-Trifold-for-Whats-On-4-Kids\Document fonts\Roboto-BoldItalic_0.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:144700
+FileModTime:1530097408
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Bold Italic
+NameArray:0,Mac,4,Roboto Bold Italic
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+FullName:Roboto Bold
+MenuName:Roboto
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\ThinkSmart-Graphics\TS-1453-ClassBiz-Trifold-for-Whats-On-4-Kids\Document fonts\Roboto-Bold_0.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:135820
+FileModTime:1518679276
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Bold
+NameArray:0,Mac,4,Roboto Bold
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Italic
+FamilyName:Roboto
+StyleName:Italic
+FullName:Roboto Italic
+MenuName:Roboto
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\ThinkSmart-Graphics\TS-1453-ClassBiz-Trifold-for-Whats-On-4-Kids\Document fonts\Roboto-Italic_0.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:148540
+FileModTime:1530097408
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Italic
+NameArray:0,Mac,4,Roboto Italic
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto Regular
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\ThinkSmart-Graphics\TS-1453-ClassBiz-Trifold-for-Whats-On-4-Kids\Document fonts\Roboto-Regular_3.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:158604
+FileModTime:1322529418
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Regular
+NameArray:0,Mac,4,Roboto Regular
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SFProText-Medium
+FamilyName:SF Pro Text
+StyleName:Medium
+FullName:SF Pro Text Medium
+MenuName:SF Pro Text
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\ThinkSmart-Graphics\TS-1453-ClassBiz-Trifold-for-Whats-On-4-Kids\Document fonts\SF-Pro-Text-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:342732
+FileModTime:1496198908
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,SF Pro Text
+NameArray:0,Win,16,SF Pro Text
+%EndFont
+
