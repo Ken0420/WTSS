@@ -44,71 +44,31 @@
       href="../../../assets/css/base.css"
     />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-    <!-- Google tag (gtag.js) -->
-
     <script>
       var cookieFunctions = {
-        setCookie: function (e, t, n) {
-          var a = "";
-          if (n) {
-            var o = new Date();
-            o.setTime(o.getTime() + 24 * n * 60 * 60 * 1e3),
-              (a = "; expires=" + o.toUTCString());
+        setCookie: function (name, value, days) {
+          var expires = "";
+          if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+            expires = "; expires=" + date.toUTCString();
           }
-          document.cookie = e + "=" + (t || "") + a + "; path=/";
+          document.cookie = name + "=" + (value || "") + expires + "; path=/";
         },
-        getCookie: function (e) {
-          for (
-            var t = e + "=", n = document.cookie.split(";"), a = 0;
-            a < n.length;
-            a++
-          ) {
-            for (var o = n[a]; " " == o.charAt(0); )
-              o = o.substring(1, o.length);
-            if (0 == o.indexOf(t)) return o.substring(t.length, o.length);
+        getCookie: function (name) {
+          var prefix = name + "=";
+          var cookies = document.cookie.split(";");
+          for (var i = 0; i < cookies.length; i++) {
+            var cookie = cookies[i].trim();
+            if (cookie.indexOf(prefix) === 0)
+              return cookie.substring(prefix.length);
           }
           return null;
         },
-        eraseCookie: function (e) {
-          document.cookie = e + "=; Max-Age=-99999999;";
+        eraseCookie: function (name) {
+          document.cookie = name + "=; Max-Age=-99999999; path=/";
         },
       };
-      function getUrlVars() {
-        var e = {};
-        return (
-          window.location.href.replace(
-            /[?&]+([^=&]+)=([^&]*)/gi,
-            function (t, n, a) {
-              e[n] = a;
-            }
-          ),
-          e
-        );
-      }
-      function getUrlParam(e, t) {
-        var n = t;
-        return window.location.href.indexOf(e) > -1 && (n = getUrlVars()[e]), n;
-      }
-      var exp_date = new Date();
-      exp_date.setDate(exp_date.getDate() + 7);
-      var campaign_variables = [
-        "utm_source",
-        "utm_medium",
-        "utm_campaign",
-        "utm_term",
-        "utm_content",
-      ];
-      campaign_variables.forEach(function (e, t, n) {
-        var a = getUrlParam(e, null);
-        null !== a && cookieFunctions.setCookie(e, escape(a), 7);
-      });
-    </script>
-
-    <script>
-      var exp_date = new Date();
-      exp_date.setDate(exp_date.getDate() + 7);
     </script>
 
     <style>
@@ -1193,7 +1153,17 @@
               class="needs-validation"
               action="#"
               method="post"
+              onsubmit="return false;"
+              data-static-preview="true"
             >
+              <p
+                class="alert alert-info py-2 mb-3 static-preview-form-notice"
+                role="status"
+              >
+                Static preview: this form is for display only and cannot be
+                submitted.
+              </p>
+
               <div class="form-group pl-xl-1 pr-xl-1">
                 <label for="company">Company:</label>
                 <input
@@ -1504,7 +1474,7 @@
 
               <!-- <div class="d-none text-center">
                     <button id="form_submit_button" type="submit"
-                        class="mt-2 mt-lg-3 mb-3 pl-lg-3 pr-lg-3 btn btn-success text-center text-white">
+                        class="mt-2 mt-lg-3 mb-3 pl-lg-3 pr-lg-3 btn btn-success text-center text-white" disabled>
                         Start Your Free Trial <i class="text-light pl-2 fas fa-play fa-xs"></i></button>
                     </div> -->
               <div class="form-group pl-xl-1 pr-xl-1">
@@ -1517,16 +1487,8 @@
                 ></textarea>
               </div>
 
-              <script src="https://www.google.com/recaptcha/api.js"></script>
-
               <div class="container pt-xl-1 pb-4">
-                <div class="row justify-content-center">
-                  <div
-                    style="display: inline-block"
-                    class="g-recaptcha resized_captcha"
-                    data-sitekey="6Lf7lBgaAAAAAF56t-12aHUfRKeGDqNl-UR0zggJ"
-                  ></div>
-                </div>
+                <div class="row justify-content-center"></div>
               </div>
 
               <div class="row modal-footer pb-2 pl-3 pr-3">
@@ -1534,6 +1496,7 @@
                   id="form_submit_button"
                   type="submit"
                   class="mt-2 btn btn-success text-white w-100"
+                  disabled
                 >
                   Submit<i class="text-light pl-2 fas fa-play fa-xs"></i>
                 </button>
@@ -2179,46 +2142,6 @@
           }
         });
 
-        $("#contact_us_form").submit(function (e) {
-          e.preventDefault();
-
-          var data = $("#contact_us_form").serialize();
-
-          disableSubmit();
-          $.ajax({
-            url: $(this).attr("action"),
-            type: "POST",
-            data: data,
-            dataType: "json",
-          }).done(function (data) {
-            enableSubmit();
-            if (data.ErrorCode === "Success") {
-              $("#contact_us_server_response_div-message").text(
-                "Your message has been sent through to our support staff. Someone will be in touch with you shortly."
-              );
-              $("#contact_us_form")[0].reset();
-              $("#contact_us_server_response_div-ok_button")
-                .text("OK")
-                .off("click")
-                .on("click", function () {
-                  $("#contact_us_form_modal").modal("hide");
-                });
-            } else {
-              $("#contact_us_response_modal-title").text("Error");
-              $("#contact_us_server_response_div-message").text(data.ErrorText);
-              $("#contact_us_server_response_div-ok_button")
-                .text("Try Again")
-                .off("click")
-                .on("click", function () {
-                  $("#contact_us_server_response_div").addClass("d-none");
-                  $("#contact_us_form").removeClass("d-none");
-                });
-            }
-            $("#contact_us_server_response_div").removeClass("d-none");
-            $("#contact_us_form").addClass("d-none");
-          });
-        });
-
         if (cookieFunctions.getCookie("country")) {
           changeCountry(cookieFunctions.getCookie("country"));
         }
@@ -2259,22 +2182,6 @@
             $country_select.val("United States");
             break;
         }
-      }
-
-      function disableSubmit() {
-        var loadingText =
-          'Submitting <i class="fa fa-circle-o-notch fa-spin"></i>';
-        $("#form_submit_button").prop("disabled", true).html(loadingText);
-        $("#contact_us_form_modal-dismiss_button").prop("disabled", true);
-      }
-
-      function enableSubmit() {
-        $("#form_submit_button")
-          .prop("disabled", false)
-          .html(
-            'Submit Enquiry <i class="text-light pl-2 fas fa-play fa-xs"></i>'
-          );
-        $("#contact_us_form_modal-dismiss_button").prop("disabled", false);
       }
     </script>
   </body>

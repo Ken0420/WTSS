@@ -44,71 +44,31 @@
       href="../../../assets/css/base.css"
     />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-    <!-- Google tag (gtag.js) -->
-
     <script>
       var cookieFunctions = {
-        setCookie: function (e, t, n) {
-          var a = "";
-          if (n) {
-            var o = new Date();
-            o.setTime(o.getTime() + 24 * n * 60 * 60 * 1e3),
-              (a = "; expires=" + o.toUTCString());
+        setCookie: function (name, value, days) {
+          var expires = "";
+          if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+            expires = "; expires=" + date.toUTCString();
           }
-          document.cookie = e + "=" + (t || "") + a + "; path=/";
+          document.cookie = name + "=" + (value || "") + expires + "; path=/";
         },
-        getCookie: function (e) {
-          for (
-            var t = e + "=", n = document.cookie.split(";"), a = 0;
-            a < n.length;
-            a++
-          ) {
-            for (var o = n[a]; " " == o.charAt(0); )
-              o = o.substring(1, o.length);
-            if (0 == o.indexOf(t)) return o.substring(t.length, o.length);
+        getCookie: function (name) {
+          var prefix = name + "=";
+          var cookies = document.cookie.split(";");
+          for (var i = 0; i < cookies.length; i++) {
+            var cookie = cookies[i].trim();
+            if (cookie.indexOf(prefix) === 0)
+              return cookie.substring(prefix.length);
           }
           return null;
         },
-        eraseCookie: function (e) {
-          document.cookie = e + "=; Max-Age=-99999999;";
+        eraseCookie: function (name) {
+          document.cookie = name + "=; Max-Age=-99999999; path=/";
         },
       };
-      function getUrlVars() {
-        var e = {};
-        return (
-          window.location.href.replace(
-            /[?&]+([^=&]+)=([^&]*)/gi,
-            function (t, n, a) {
-              e[n] = a;
-            }
-          ),
-          e
-        );
-      }
-      function getUrlParam(e, t) {
-        var n = t;
-        return window.location.href.indexOf(e) > -1 && (n = getUrlVars()[e]), n;
-      }
-      var exp_date = new Date();
-      exp_date.setDate(exp_date.getDate() + 7);
-      var campaign_variables = [
-        "utm_source",
-        "utm_medium",
-        "utm_campaign",
-        "utm_term",
-        "utm_content",
-      ];
-      campaign_variables.forEach(function (e, t, n) {
-        var a = getUrlParam(e, null);
-        null !== a && cookieFunctions.setCookie(e, escape(a), 7);
-      });
-    </script>
-
-    <script>
-      var exp_date = new Date();
-      exp_date.setDate(exp_date.getDate() + 7);
     </script>
   </head>
   <body>
@@ -334,7 +294,7 @@
               <div class="container">
                 <div class="row justify-content-center align-items-center">
                   <div class="col-10">
-                    <a href="../product_pages/home.html"
+                    <a href="../product_pages/classbiz/home.html"
                       ><img
                         src="../../../assets/img/thinksmart/classbiz-horizontal.svg"
                         class="img-fluid p-2"
@@ -348,7 +308,7 @@
               <div class="container">
                 <div class="row justify-content-center align-items-center">
                   <div class="col-10">
-                    <a href="../product_pages/home.html"
+                    <a href="../product_pages/dancebiz/home.html"
                       ><img
                         src="../../../assets/img/thinksmart/dancebiz-horizontal.svg"
                         class="img-fluid p-2"
@@ -362,7 +322,7 @@
               <div class="container">
                 <div class="row justify-content-center align-items-center">
                   <div class="col-10">
-                    <a href="../product_pages/home.html"
+                    <a href="../product_pages/gymnasticsbiz/home.html"
                       ><img
                         src="../../../assets/img/thinksmart/gymnasticsbiz-horizontal.svg"
                         class="img-fluid"
@@ -376,7 +336,7 @@
               <div class="container">
                 <div class="row justify-content-center align-items-center">
                   <div class="col-10">
-                    <a href="../product_pages/home.html"
+                    <a href="../product_pages/musicbiz/home.html"
                       ><img
                         src="../../../assets/img/thinksmart/musicbiz-horizontal.svg"
                         class="img-fluid p-2"
@@ -390,7 +350,7 @@
               <div class="container">
                 <div class="row justify-content-center align-items-center">
                   <div class="col-10">
-                    <a href="../product_pages/home.html"
+                    <a href="../product_pages/sportsbiz/home.html"
                       ><img
                         src="../../../assets/img/thinksmart/sportsbiz-horizontal.svg"
                         class="img-fluid p-2"
@@ -404,7 +364,7 @@
               <div class="container">
                 <div class="row justify-content-center align-items-center">
                   <div class="col-10">
-                    <a href="../product_pages/home.html"
+                    <a href="../product_pages/swimbiz/home.html"
                       ><img
                         src="../../../assets/img/thinksmart/swimbiz-horizontal.svg"
                         class="img-fluid p-2"
@@ -418,7 +378,7 @@
               <div class="container">
                 <div class="row justify-content-center align-items-center">
                   <div class="col-10">
-                    <a href="../product_pages/home.html"
+                    <a href="../product_pages/tennisbiz/home.html"
                       ><img
                         src="../../../assets/img/thinksmart/tennisbiz-horizontal.svg"
                         class="img-fluid p-2"
@@ -481,7 +441,7 @@
         </h4>
         <div class="row justify-content-lg-center">
           <div class="col-3 slide-in-left">
-            <a href="../product_pages/home.html"
+            <a href="../product_pages/classbiz/home.html"
               ><img
                 src="../../../assets/img/thinksmart/classbiz-horizontal.svg"
                 id="reflect"
@@ -490,7 +450,7 @@
             /></a>
           </div>
           <div class="col-3 slide-in-left">
-            <a href="../product_pages/home.html"
+            <a href="../product_pages/swimbiz/home.html"
               ><img
                 src="../../../assets/img/thinksmart/swimbiz-horizontal.svg"
                 id="reflect"
@@ -499,7 +459,7 @@
             /></a>
           </div>
           <div class="col-3 slide-in-left">
-            <a href="../product_pages/home.html"
+            <a href="../product_pages/dancebiz/home.html"
               ><img
                 src="../../../assets/img/thinksmart/dancebiz-horizontal.svg"
                 id="reflect"
@@ -508,7 +468,7 @@
             /></a>
           </div>
           <div class="col-3 slide-in-right">
-            <a href="../product_pages/home.html"
+            <a href="../product_pages/musicbiz/home.html"
               ><img
                 src="../../../assets/img/thinksmart/musicbiz-horizontal.svg"
                 id="reflect"
@@ -518,7 +478,7 @@
           </div>
           <div class="col-12 pt-lg-2 pb-lg-1 pb-xl-2"></div>
           <div class="col-3 slide-in-right">
-            <a href="../product_pages/home.html"
+            <a href="../product_pages/tennisbiz/home.html"
               ><img
                 src="../../../assets/img/thinksmart/tennisbiz-horizontal.svg"
                 id="reflect"
@@ -527,7 +487,7 @@
             /></a>
           </div>
           <div class="col-4 slide-in-right">
-            <a href="../product_pages/home.html"
+            <a href="../product_pages/gymnasticsbiz/home.html"
               ><img
                 src="../../../assets/img/thinksmart/gymnasticsbiz-horizontal.svg"
                 id="reflect"
@@ -536,7 +496,7 @@
             /></a>
           </div>
           <div class="col-3 slide-in-right">
-            <a href="../product_pages/home.html"
+            <a href="../product_pages/sportsbiz/home.html"
               ><img
                 src="../../../assets/img/thinksmart/sportsbiz-horizontal.svg"
                 id="reflect"
