@@ -1,4 +1,4 @@
-<!-- Static template export; replace [Template data: ...] values with live data. -->
+<!-- Static sample export with illustrative feature data. -->
 <!DOCTYPE html>
 <html lang="en" data-product="DanceBiz">
   <head>
@@ -270,29 +270,20 @@
       id="mobile-menu"
       class="container d-lg-none sticky-top sticky-offset-mobile bg-white pt-2 pb-4"
     >
-      <div class="">
-        <h5 class="text-center pt-3 text-db-primary">Categories</h5>
-        <div class="dropdown border-bottom">
-          <button
-            class="d-flex justify-content-between align-items-center pb-1 mb-0 w-100 btn"
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Please select an item<span class="dropdown-toggle"></span>
-          </button>
-          <div
-            class="w-100 dropdown-menu"
-            aria-labelled-by="dropdownMenuButton"
-          >
-            <a
-              class="dropdown-item"
-              href="#category-[Template data: features_category.featureCategoryVariableID]"
-              >[Template data: features_category.CategoryName]</a
-            >
-          </div>
+      <h5 class="text-center pt-3 text-db-primary">Feature categories</h5>
+      <div class="dropdown border-bottom">
+        <button
+          class="d-flex justify-content-between align-items-center pb-1 mb-0 w-100 btn"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Please select an item<span class="dropdown-toggle"></span>
+        </button>
+        <div class="w-100 dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#category-bookings">Bookings &amp; enrolments</a>
         </div>
       </div>
     </div>
@@ -300,92 +291,155 @@
 
     <!-- main items -->
     <div class="container pt-lg-2 pt-xl-3">
-      <!-- main container -->
       <div class="row justify-content-xl-between">
-        <!-- sidebar left side -->
         <div class="d-none d-lg-block pl-lg-0 col-lg-4 col-xl-3">
           <div
             id="features-sidebar-categories"
             class="sticky-top sticky-offset list-group list-group-flush"
           >
             <h5 class="pb-lg-2 pl-lg-4 pl-xl-3 text-db-primary">Categories</h5>
-
             <a
-              href="#category-[Template data: features_category.featureCategoryVariableID]"
+              href="#category-bookings"
               class="border-0 list-group-item list-group-item-action btn btn-transparent d-flex align-items-center text-reset pt-lg-2 pb-lg-2 pl-0 ml-lg-3 ml-xl-2 pl-xl-1"
             >
-              <div class="pl-lg-2 pt-1">
-                [Template data: features_category.CategoryName]
-              </div>
+              <div class="pl-lg-2 pt-1">Bookings &amp; enrolments</div>
             </a>
           </div>
         </div>
-        <!-- end of left column -->
 
-        <!-- main feature items right side -->
         <div class="col-12 col-lg-8 col-xl-8 pl-xl-0 pr-xl-0">
           <h5
-            id="category-[Template data: features_category.featureCategoryVariableID]"
+            id="category-bookings"
             class="text-center pt-4 pt-lg-0 pb-3 text-db-primary features-category-header"
           >
-            [Template data: features_category.CategoryName]
+            Bookings &amp; enrolments
           </h5>
 
-          <div
-            class="card mb-3 mb-lg-4"
-            id="accordion-[Template data: feature.featureVariableID]"
-          >
-            <div
-              class="border-0 rounded p-0 bg-transparent card-header-feature"
-              id="heading-[Template data: feature.featureVariableID]"
-            >
-              <a
-                class="d-block d-flex align-items-center link-unstyled text-reset collapsed features-accordion-arrow mb-0 p-3"
-                role="button"
-                data-toggle="collapse"
-                href="#collapse-[Template data: feature.featureVariableID]"
-                aria-expanded="false"
-                aria-controls="collapse-[Template data: feature.featureVariableID]"
-              >
-                <img
-                  src="../../../../assets/img/dancebiz/dancebiz-home-page-overview-hero-image-mobile.png"
-                  class="features-icons-full-width"
-                  alt="[Template data: feature.imagesArray.FeatureIcon0.AltText]"
-                />
-                <span class="pl-2 pr-3 pl-sm-3"
-                  >[Template data: feature.Title]</span
+          <div id="features-accordion-list">
+            <div class="card mb-3 mb-lg-4" id="accordion-online-bookings">
+              <div class="border-0 rounded p-0 bg-transparent card-header-feature" id="heading-online-bookings">
+                <a
+                  class="d-flex align-items-center link-unstyled text-reset collapsed features-accordion-arrow mb-0 p-3"
+                  role="button"
+                  data-toggle="collapse"
+                  href="#collapse-online-bookings"
+                  aria-expanded="false"
+                  aria-controls="collapse-online-bookings"
                 >
-              </a>
-
-              <div
-                id="collapse-[Template data: feature.featureVariableID]"
-                class="bg-white rounded-bottom collapse collapsing"
-                data-parent="#accordion-[Template data: feature.featureVariableID]"
-                aria-labelledby="heading-1a"
-              >
-                <div class="card-body border-top">
-                  <div class="pre-wrap mb-0">
-                    [Template data:
-                    includetemplate_from_stringfeature.Description]
-                  </div>
-
-                  <div class="lightbox-gallery mt-2 mt-md-3">
-                    <a
-                      href="../../../../assets/img/dancebiz/dancebiz-home-page-overview-hero-image-mobile.png"
-                      ><img
-                        src="../../../../assets/img/dancebiz/dancebiz-home-page-overview-hero-image-mobile.png"
-                        alt="[Template data: feature.imagesArray.DescriptionImage0.AltText]"
-                        class="ml-auto mr-auto img-fluid"
-                    /></a>
+                  <img
+                    src="../../../../assets/img/generic-features-online-booking-icon.svg"
+                    class="features-icons-full-width"
+                    alt="Online booking icon"
+                  />
+                  <span class="pl-2 pr-3 pl-sm-3">Online bookings for families</span>
+                </a>
+                <div
+                  id="collapse-online-bookings"
+                  class="bg-white rounded-bottom collapse"
+                  data-parent="#features-accordion-list"
+                  aria-labelledby="heading-online-bookings"
+                >
+                  <div class="card-body border-top">
+                    <div class="pre-wrap mb-0">
+                      Let families view available sessions and submit enrolments online, while your team keeps bookings and student details together.
+                    </div>
+                    <div class="lightbox-gallery mt-2 mt-md-3">
+                      <a href="../../../../assets/img/generic-features-online-components-online-bookings-big-screen-hr.webp">
+                        <img
+                          src="../../../../assets/img/generic-features-online-components-online-bookings-big-screen-hr.webp"
+                          alt="Online booking timetable and enrolment screen"
+                          class="ml-auto mr-auto img-fluid"
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <!-- end of accordion paragraph item container -->
+            </div>
+
+            <div class="card mb-3 mb-lg-4" id="accordion-class-scheduling">
+              <div class="border-0 rounded p-0 bg-transparent card-header-feature" id="heading-class-scheduling">
+                <a
+                  class="d-flex align-items-center link-unstyled text-reset collapsed features-accordion-arrow mb-0 p-3"
+                  role="button"
+                  data-toggle="collapse"
+                  href="#collapse-class-scheduling"
+                  aria-expanded="false"
+                  aria-controls="collapse-class-scheduling"
+                >
+                  <img
+                    src="../../../../assets/img/generic-features-visual-scheduler-graphic-icon.svg"
+                    class="features-icons-full-width"
+                    alt="Class scheduling icon"
+                  />
+                  <span class="pl-2 pr-3 pl-sm-3">Visual class scheduling</span>
+                </a>
+                <div
+                  id="collapse-class-scheduling"
+                  class="bg-white rounded-bottom collapse"
+                  data-parent="#features-accordion-list"
+                  aria-labelledby="heading-class-scheduling"
+                >
+                  <div class="card-body border-top">
+                    <div class="pre-wrap mb-0">
+                      Plan your weekly timetable in one place, make changes quickly and give staff a clear view of upcoming sessions.
+                    </div>
+                    <div class="lightbox-gallery mt-2 mt-md-3">
+                      <a href="../../../../assets/img/generic-features-visual-scheduler-md.webp">
+                        <img
+                          src="../../../../assets/img/generic-features-visual-scheduler-md.webp"
+                          alt="Visual weekly class schedule"
+                          class="ml-auto mr-auto img-fluid"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3 mb-lg-4" id="accordion-student-management">
+              <div class="border-0 rounded p-0 bg-transparent card-header-feature" id="heading-student-management">
+                <a
+                  class="d-flex align-items-center link-unstyled text-reset collapsed features-accordion-arrow mb-0 p-3"
+                  role="button"
+                  data-toggle="collapse"
+                  href="#collapse-student-management"
+                  aria-expanded="false"
+                  aria-controls="collapse-student-management"
+                >
+                  <img
+                    src="../../../../assets/img/generic-features-customer-and-student-management-icon.svg"
+                    class="features-icons-full-width"
+                    alt="Student management icon"
+                  />
+                  <span class="pl-2 pr-3 pl-sm-3">Student and customer records</span>
+                </a>
+                <div
+                  id="collapse-student-management"
+                  class="bg-white rounded-bottom collapse"
+                  data-parent="#features-accordion-list"
+                  aria-labelledby="heading-student-management"
+                >
+                  <div class="card-body border-top">
+                    <div class="pre-wrap mb-0">
+                      Keep contact details, enrolments and important notes organised so your team can find the information they need.
+                    </div>
+                    <div class="lightbox-gallery mt-2 mt-md-3">
+                      <a href="../../../../assets/img/generic-features-customer-and-student.webp">
+                        <img
+                          src="../../../../assets/img/generic-features-customer-and-student.webp"
+                          alt="Customer and student record management screen"
+                          class="ml-auto mr-auto img-fluid"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <!-- end of accordion card -->
         </div>
-        <!-- end of right column -->
       </div>
       <!-- end of main items container -->
     </div>
