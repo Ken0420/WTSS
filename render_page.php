@@ -17,7 +17,7 @@
     $variables = [
         'css_id' => 'example-css-id', // Replace with actual CSS ID
         'product' => [
-            'lowercase_name' => 'classbiz' // Replace with the actual product name
+            'lowercase_name' => 'classws' // Replace with the actual product name
         ]
     ];
 

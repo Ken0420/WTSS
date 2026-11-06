@@ -58,7 +58,7 @@ function Get-StaticValue {
 
     switch -Regex ($value) {
         '^product\.lowercase_name$' {
-            if ($Context.HasProduct) { return 'classbiz' }
+            if ($Context.HasProduct) { return 'classws' }
             return ''
         }
         '^product\.Name$' {
@@ -105,10 +105,10 @@ function Test-StaticCondition {
         return [bool]$Context.HasProduct
     }
     if ($condition -match '^product\.lowercase_name\s*==\s*[''"]([^''"]+)[''"]$') {
-        return [bool]$Context.HasProduct -and ($Matches[1] -eq 'classbiz')
+        return [bool]$Context.HasProduct -and ($Matches[1] -eq 'classws')
     }
     if ($condition -match '^product\.lowercase_name\s*!=\s*[''"]([^''"]+)[''"]$') {
-        return [bool]$Context.HasProduct -and ($Matches[1] -ne 'classbiz')
+        return [bool]$Context.HasProduct -and ($Matches[1] -ne 'classws')
     }
     if ($condition -match '^environment\s*==\s*[''"]live[''"]$') { return $false }
     if ($condition -match '^environment\s*!=\s*[''"]live[''"]$') { return $true }
@@ -171,7 +171,7 @@ function Get-StaticExpression {
     if ($value -eq 'frontend_base_url') { return $Context.AssetBase }
     if ($value -eq 'css_id') { return $Context.CssId }
     if ($value -eq 'product.lowercase_name') {
-        if ($Context.HasProduct) { return 'classbiz' }
+        if ($Context.HasProduct) { return 'classws' }
         return ''
     }
     if ($value -eq 'product.Name') {
@@ -334,7 +334,7 @@ function New-StaticContext {
         HasProduct = $hasProduct
         CssId = $(if ($hasProduct) { 'cb' } else { 'tss' })
         AssetBase = $assetBase
-        ImagePlaceholder = $(if ($hasProduct) { 'assets/img/classbiz/classbiz-hero-image-all.png' } else { 'assets/img/thinksmart/thinksmart-allsoftware.png' })
+        ImagePlaceholder = $(if ($hasProduct) { 'assets/img/classws/classws-hero-image-all.png' } else { 'assets/img/thinksmart/thinksmart-allsoftware.png' })
         OutputFile = $OutputFile
     }
 }

@@ -114,9 +114,9 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'classbiz'}) }}"><img
-                                            src="{{ frontend_base_url }}assets/img/thinksmart/classbiz-horizontal.svg" class="img-fluid p-2"
-                                            alt="classbiz"></a>
+                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'classws'}) }}"><img
+                                            src="{{ frontend_base_url }}assets/img/thinksmart/classws-horizontal.svg" class="img-fluid p-2"
+                                            alt="classws"></a>
                             </div>
                         </div>
                     </div>
@@ -125,9 +125,9 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'dancebiz'}) }}"><img
-                                            src="{{ frontend_base_url }}assets/img/thinksmart/dancebiz-horizontal.svg" class="img-fluid p-2"
-                                            alt="dancebiz"></a>
+                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'dancews'}) }}"><img
+                                            src="{{ frontend_base_url }}assets/img/thinksmart/dancews-horizontal.svg" class="img-fluid p-2"
+                                            alt="dancews"></a>
                             </div>
                         </div>
                     </div>
@@ -136,9 +136,9 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'gymnasticsbiz'}) }}"><img
-                                            src="{{ frontend_base_url }}assets/img/thinksmart/gymnasticsbiz-horizontal.svg" class="img-fluid"
-                                            alt="gymnasticsbiz"></a>
+                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'gymnasticsws'}) }}"><img
+                                            src="{{ frontend_base_url }}assets/img/thinksmart/gymnasticsws-horizontal.svg" class="img-fluid"
+                                            alt="gymnasticsws"></a>
                             </div>
                         </div>
                     </div>
@@ -147,9 +147,9 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'musicbiz'}) }}"><img
-                                            src="{{ frontend_base_url }}assets/img/thinksmart/musicbiz-horizontal.svg" class="img-fluid p-2"
-                                            alt="musicbiz"></a>
+                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'musicws'}) }}"><img
+                                            src="{{ frontend_base_url }}assets/img/thinksmart/musicws-horizontal.svg" class="img-fluid p-2"
+                                            alt="musicws"></a>
                             </div>
                         </div>
                     </div>
@@ -158,9 +158,9 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'sportsbiz'}) }}"><img
-                                            src="{{ frontend_base_url }}assets/img/thinksmart/sportsbiz-horizontal.svg" class="img-fluid p-2"
-                                            alt="sportsbiz"></a>
+                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'sportsws'}) }}"><img
+                                            src="{{ frontend_base_url }}assets/img/thinksmart/sportsws-horizontal.svg" class="img-fluid p-2"
+                                            alt="sportsws"></a>
                             </div>
                         </div>
                     </div>
@@ -169,9 +169,9 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'swimbiz'}) }}"><img
-                                            src="{{ frontend_base_url }}assets/img/thinksmart/swimbiz-horizontal.svg" class="img-fluid p-2"
-                                            alt="swimbiz"></a>
+                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'swimws'}) }}"><img
+                                            src="{{ frontend_base_url }}assets/img/thinksmart/swimws-horizontal.svg" class="img-fluid p-2"
+                                            alt="swimws"></a>
                             </div>
                         </div>
                     </div>
@@ -180,9 +180,9 @@
                     <div class="container">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-10">
-                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'tennisbiz'}) }}"><img
-                                            src="{{ frontend_base_url }}assets/img/thinksmart/tennisbiz-horizontal.svg" class="img-fluid p-2"
-                                            alt="tennisbiz"></a>
+                                <a href="{{ path_for( 'product_pages.home', {'product_name': 'tennisws'}) }}"><img
+                                            src="{{ frontend_base_url }}assets/img/thinksmart/tennisws-horizontal.svg" class="img-fluid p-2"
+                                            alt="tennisws"></a>
                             </div>
                         </div>
                     </div>
@@ -218,40 +218,40 @@
         <h4 class="text-center mb-lg-4 pb-xl-2 pt-xl-2 bounce-bottom text-tss-primary">Please select the product that best suits your industry</h4>
         <div class="row justify-content-lg-center">
             <div class="col-3 slide-in-left">
-                <a href="{{ path_for( 'product_pages.home', {'product_name': 'classbiz'}) }}"><img
-                            src="{{ frontend_base_url }}assets/img/thinksmart/classbiz-horizontal.svg" id="reflect"
-                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="classbiz"></a>
+                <a href="{{ path_for( 'product_pages.home', {'product_name': 'classws'}) }}"><img
+                            src="{{ frontend_base_url }}assets/img/thinksmart/classws-horizontal.svg" id="reflect"
+                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="classws"></a>
             </div>
             <div class="col-3 slide-in-left">
-                <a href="{{ path_for( 'product_pages.home', {'product_name': 'swimbiz'}) }}"><img
-                            src="{{ frontend_base_url }}assets/img/thinksmart/swimbiz-horizontal.svg" id="reflect"
-                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="swimbiz"></a>
+                <a href="{{ path_for( 'product_pages.home', {'product_name': 'swimws'}) }}"><img
+                            src="{{ frontend_base_url }}assets/img/thinksmart/swimws-horizontal.svg" id="reflect"
+                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="swimws"></a>
             </div>
             <div class="col-3 slide-in-left">
-                <a href="{{ path_for( 'product_pages.home', {'product_name': 'dancebiz'}) }}"><img
-                            src="{{ frontend_base_url }}assets/img/thinksmart/dancebiz-horizontal.svg" id="reflect"
-                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="dancebiz"></a>
+                <a href="{{ path_for( 'product_pages.home', {'product_name': 'dancews'}) }}"><img
+                            src="{{ frontend_base_url }}assets/img/thinksmart/dancews-horizontal.svg" id="reflect"
+                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="dancews"></a>
             </div>
             <div class="col-3 slide-in-right">
-                <a href="{{ path_for( 'product_pages.home', {'product_name': 'musicbiz'}) }}"><img
-                            src="{{ frontend_base_url }}assets/img/thinksmart/musicbiz-horizontal.svg" id="reflect"
-                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="musicbiz"></a>
+                <a href="{{ path_for( 'product_pages.home', {'product_name': 'musicws'}) }}"><img
+                            src="{{ frontend_base_url }}assets/img/thinksmart/musicws-horizontal.svg" id="reflect"
+                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="musicws"></a>
             </div>
             <div class="col-12 pt-lg-2 pb-lg-1 pb-xl-2"></div>
             <div class="col-3 slide-in-right">
-                <a href="{{ path_for( 'product_pages.home', {'product_name': 'tennisbiz'}) }}"><img
-                            src="{{ frontend_base_url }}assets/img/thinksmart/tennisbiz-horizontal.svg" id="reflect"
-                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="tennisbiz"></a>
+                <a href="{{ path_for( 'product_pages.home', {'product_name': 'tennisws'}) }}"><img
+                            src="{{ frontend_base_url }}assets/img/thinksmart/tennisws-horizontal.svg" id="reflect"
+                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="tennisws"></a>
             </div>
             <div class="col-4 slide-in-right">
-                <a href="{{ path_for( 'product_pages.home', {'product_name': 'gymnasticsbiz'}) }}"><img
-                            src="{{ frontend_base_url }}assets/img/thinksmart/gymnasticsbiz-horizontal.svg" id="reflect"
-                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="gymnasticsbiz"></a>
+                <a href="{{ path_for( 'product_pages.home', {'product_name': 'gymnasticsws'}) }}"><img
+                            src="{{ frontend_base_url }}assets/img/thinksmart/gymnasticsws-horizontal.svg" id="reflect"
+                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="gymnasticsws"></a>
             </div>
             <div class="col-3 slide-in-right">
-                <a href="{{ path_for( 'product_pages.home', {'product_name': 'sportsbiz'}) }}"><img
-                            src="{{ frontend_base_url }}assets/img/thinksmart/sportsbiz-horizontal.svg" id="reflect"
-                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="sportsbiz"></a>
+                <a href="{{ path_for( 'product_pages.home', {'product_name': 'sportsws'}) }}"><img
+                            src="{{ frontend_base_url }}assets/img/thinksmart/sportsws-horizontal.svg" id="reflect"
+                            class="img-fluid zoom pl-lg-4 pr-lg-4" alt="sportsws"></a>
             </div>
         </div>
     </div>
@@ -276,7 +276,7 @@
                                     <div class="container">
                                         <div class="row justify-content-center align-items-lg-center pt-lg-4 pb-lg-4">
                                             <div class="col-10">
-                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/classbiz-horizontal.svg"
+                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/classws-horizontal.svg"
                                                      class="img-fluid pb-1" alt="">
                                             </div>
                                         </div>
@@ -286,7 +286,7 @@
                                     <div class="container">
                                         <div class="row justify-content-center align-items-lg-center pt-lg-4 pb-lg-4">
                                             <div class="col-10">
-                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/dancebiz-horizontal.svg"
+                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/dancews-horizontal.svg"
                                                      class="img-fluid" alt="">
                                             </div>
                                         </div>
@@ -296,7 +296,7 @@
                                     <div class="container">
                                         <div class="row justify-content-center align-items-lg-center pt-lg-4 pb-lg-4">
                                             <div class="col-10">
-                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/gymnasticsbiz-horizontal.svg"
+                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/gymnasticsws-horizontal.svg"
                                                      class="img-fluid" alt="">
                                             </div>
                                         </div>
@@ -306,7 +306,7 @@
                                     <div class="container">
                                         <div class="row justify-content-center align-items-lg-center pt-lg-4 pb-lg-4">
                                             <div class="col-10">
-                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/musicbiz-horizontal.svg"
+                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/musicws-horizontal.svg"
                                                      class="img-fluid" alt="">
                                             </div>
                                         </div>
@@ -316,7 +316,7 @@
                                     <div class="container">
                                         <div class="row justify-content-center align-items-lg-center pt-lg-4 pb-lg-4">
                                             <div class="col-10">
-                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/sportsbiz-horizontal.svg"
+                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/sportsws-horizontal.svg"
                                                      class="img-fluid" alt="">
                                             </div>
                                         </div>
@@ -326,7 +326,7 @@
                                     <div class="container">
                                         <div class="row justify-content-center align-items-lg-center pt-lg-4 pb-lg-4">
                                             <div class="col-10">
-                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/swimbiz-horizontal.svg"
+                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/swimws-horizontal.svg"
                                                      class="img-fluid" alt="">
                                             </div>
                                         </div>
@@ -336,7 +336,7 @@
                                     <div class="container">
                                         <div class="row justify-content-center align-items-lg-center pt-lg-4 pb-lg-4">
                                             <div class="col-10">
-                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/tennisbiz-horizontal.svg"
+                                                <img src="{{ frontend_base_url }}assets/img/thinksmart/tennisws-horizontal.svg"
                                                      class="img-fluid" alt="">
                                             </div>
                                         </div>
@@ -396,7 +396,7 @@
             <div class="p-lg-3 p-xl-4">
                 <!-- <img src="{{ frontend_base_url }}assets/img/generic-features-online-components-ocr-full-tablet-size.png" --> 
                      <!-- class="border img-fluid" alt="ocr screen"> --> 
-                <img src="{{ frontend_base_url }}assets/img/swimbiz/swimbiz-overview-devices.png"
+                <img src="{{ frontend_base_url }}assets/img/swimws/swimws-overview-devices.png"
                      class="img-fluid" alt="devices screen">
             </div>
         </div>
@@ -439,10 +439,10 @@
             <!-- <div class="col-12 col-md-6 col-lg-5"> --> 
                 <!-- <!-- devices images start--> --> 
                 <!-- <div class="position-relative mt-lg-2 mt-xl-n4"> --> 
-                    <!-- <!-- swimbiz --> --> 
-                    <!-- <img src="{{ frontend_base_url }}assets/img/swimbiz/swimbiz-overview-devices.png" class="d-lg-none img-fluid" --> 
+                    <!-- <!-- swimws --> --> 
+                    <!-- <img src="{{ frontend_base_url }}assets/img/swimws/swimws-overview-devices.png" class="d-lg-none img-fluid" --> 
                          <!-- alt="tablet, desktop, smartphone"> --> 
-                    <!-- <img src="{{ frontend_base_url }}assets/img/swimbiz/swimbiz-overview-devices.png" --> 
+                    <!-- <img src="{{ frontend_base_url }}assets/img/swimws/swimws-overview-devices.png" --> 
                          <!-- class="d-none d-lg-block position-absolute mt-lg-n5 mt-xl-n4 img-fluid ml-xl-2 pr-xl-2" --> 
                          <!-- alt="tablet, desktop, smartphone"> --> 
                 <!-- </div> --> 
@@ -522,7 +522,7 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <!-- devices images start-->
                 <div class="">
-                    <!-- swimbiz -->
+                    <!-- swimws -->
                     <img src="{{ frontend_base_url }}assets/img/generic-features-online-components-ocr-full-tablet-size-transparent.png" class="img-fluid d-md-none"
                          alt="tablet, desktop, smartphone">
                     <img src="{{ frontend_base_url }}assets/img/generic-features-online-components-ocr-full-tablet-size-transparent.png" class="img-fluid d-none d-md-block pt-xl-4 pr-xl-3 pl-xl-3 ts-device-2-tablets"

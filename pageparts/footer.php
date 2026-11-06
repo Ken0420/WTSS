@@ -98,17 +98,17 @@
                         </span>
 
                         <div class="text-center text-md-left pt-lg-1 pt-xl-2 text-xl-left">
-                            {% if product.lowercase_name  == 'classbiz' %}
+                            {% if product.lowercase_name  == 'classws' %}
                                 <a href="https://www.facebook.com/ThinkSmartSoftware" target="_blank" data-toggle="tooltip" title="Facebook" class="h4"><i class="fa-brands fa-facebook-square text-white pr-2"></i></a>
                                 <a href="https://www.instagram.com/thinksmart_software/" target="_blank" data-toggle="tooltip" title="Instagram" class="h4"><i class="fa-brands fa-instagram text-white pr-2"></i></a>
                                 <a href="https://au.linkedin.com/company/thinksmart-software" target="_blank" data-toggle="tooltip" title="LinkedIn" class="h4"><i class="fa-brands fa-linkedin text-white pr-2"></i></a>
                                 <a href="https://www.twitter.com/tweetthinksmart" target="_blank" data-toggle="tooltip" title="X" class="h4"><i class="fa-brands fa-square-x-twitter text-white pr-2"></i></a>
-                            {% elseif product.lowercase_name  == "dancebiz" %}
+                            {% elseif product.lowercase_name  == "dancews" %}
                                 <a href="https://www.facebook.com/ThinkSmartSoftware" target="_blank" data-toggle="tooltip" title="Facebook" class="h4"><i class="fa-brands fa-facebook-square text-white pr-2"></i></a>
                                 <a href="https://www.instagram.com/thinksmart_software/" target="_blank" data-toggle="tooltip" title="Instagram" class="h4"><i class="fa-brands fa-instagram text-white pr-2"></i></a>
                                 <a href="https://au.linkedin.com/company/thinksmart-software" target="_blank" data-toggle="tooltip" title="LinkedIn" class="h4"><i class="fa-brands fa-linkedin text-white pr-2"></i></a>
                                 <a href="https://www.twitter.com/tweetthinksmart" target="_blank" data-toggle="tooltip" title="X" class="h4"><i class="fa-brands fa-square-x-twitter text-white pr-2"></i></a>
-                            {% elseif product.lowercase_name  == "swimbiz" %}
+                            {% elseif product.lowercase_name  == "swimws" %}
                                 <a href="https://www.facebook.com/ThinkSmartSoftware" target="_blank" data-toggle="tooltip" title="Facebook" class="h4"><i class="fa-brands fa-facebook-square text-white pr-2"></i></a>
                                 <a href="https://www.instagram.com/thinksmart_software/" target="_blank" data-toggle="tooltip" title="Instagram" class="h4"><i class="fa-brands fa-instagram text-white pr-2"></i></a>
                                 <a href="https://au.linkedin.com/company/thinksmart-software" target="_blank" data-toggle="tooltip" title="LinkedIn" class="h4"><i class="fa-brands fa-linkedin text-white pr-2"></i></a>
